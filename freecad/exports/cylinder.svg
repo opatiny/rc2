@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="305.591839401mm" height="305.791851362mm" viewBox="0 0 305.591839401 305.791851362" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<g id="Circle" transform="translate(152.595841,152.895926) scale(1,-1)">
+<circle cx="0.0" cy="0.0" r="150.0" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<title>External circle</title>
+</g>
+<g id="Circle001" transform="translate(152.595841,152.895926) scale(1,-1)">
+<circle cx="0.0" cy="0.0" r="89.0" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<title>Internal circle</title>
+</g>
+<g id="Rectangle" transform="translate(152.595841,152.895926) scale(1,-1)">
+<path id="Rectangle_f0000"  d="M 10.0 99.0 L 10.0 140.0 L -10.0 140.0 L -10.0 99.0 L 10.0 99.0 Z " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc;fill-rule: evenodd "/>
+<title>Hole servo</title>
+</g>
+<g id="Array" transform="translate(152.595841,152.895926) scale(1,-1)">
+<path id="Array_f0000"  d="M 10.0 99.0 L 10.0 140.0 L -10.0 140.0 L -10.0 99.0 L 10.0 99.0 Z " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc;fill-rule: evenodd "/>
+<path id="Array_f0001"  d="M -90.7365149747 -40.8397459622 L -126.24355653 -61.3397459622 L -116.24355653 -78.6602540378 L -80.7365149747 -58.1602540378 L -90.7365149747 -40.8397459622 Z " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc;fill-rule: evenodd "/>
+<path id="Array_f0002"  d="M 80.7365149747 -58.1602540378 L 116.24355653 -78.6602540378 L 126.24355653 -61.3397459622 L 90.7365149747 -40.8397459622 L 80.7365149747 -58.1602540378 Z " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc;fill-rule: evenodd "/>
+<title>3 x Servo</title>
+</g>
+<g id="Circle002" transform="translate(152.595841,152.895926) scale(1,-1)">
+<circle cx="3.97625184059" cy="121.201255798" r="2.0" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc"/>
+<title>Hole screw</title>
+</g>
+<g id="Array001" transform="translate(152.595841,152.895926) scale(1,-1)">
+<circle cx="-102.975240572" cy="64.0441630049" r="2.0" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc"/>
+<circle cx="-3.97625184054" cy="-121.201255798" r="2.0" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc"/>
+<circle cx="106.951492412" cy="57.1570927934" r="2.0" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc"/>
+<title>3 x screw</title>
+</g>
+</svg>
