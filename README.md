@@ -2,10 +2,10 @@
 ------
 This repositroy will contain all the data that was used and produced to realise this project. Wich means:
 *pictures
-*a latex document
-*schemes
-*models
-*...
+* a latex document
+* schemes
+* models
+* ...
 
 ## Goal
 

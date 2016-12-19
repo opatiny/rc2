@@ -1,1 +1,8 @@
-useStrict
+"use srict";
+/*require(formula(a, b, c, y))*/
+
+var a = 
+
+for( var y = 1; y < 180; y++){
+    return formula(y);
+}
