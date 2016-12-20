@@ -2,7 +2,7 @@ var input='x = -cos^(-1)((-sqrt((4 a b sin(y) + 4 a b cos(y) + 4 a d + 2 b c sin
 
 
 var output=input
-    .replace(/([0-9a-z]) (?=[a-z\(])/g,'$1 * ')
+    .replace(/([0-9a-z\)]) (?=[a-z\(])/g,'$1 * ')
     .replace(/cos(?=\()/g,'Math.cos')
     .replace(/sin(?=\()/g,'Math.sin')
     .replace(/tan(?=\()/g,'Math.tan')
@@ -13,4 +13,10 @@ var output=input
     .replace(/\^/g,'**');
 
 
-console.log(output);
+
+var myFunction='function(a,b,c,d,y) { var '+output+'; return x;}';
+console.log(myFunction);
+
+//var theFunction = eval(myFunction);
+
+
