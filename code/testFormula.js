@@ -4,7 +4,9 @@ var formula = require('./formula.js');
 
 var radiusCenter = 20; // rayon du cercle défini par la masse au centre du cylindre en [mm]
 var radiusServer = 40; // rayon défini par l'axe du servo en [mm]
-var distance = 200; // distance between center of cylinder and center of servo [mm]
+var radius = 200; // distance between center of cylinder and center of servo [mm]
+var distance = Math.sqrt(radiusServer**2 + radius**2); // distance between point on center circle of cylinder and end of servo axis [mm]
+
 
 var results=[];
 
@@ -16,6 +18,7 @@ for( var angleCenter = 0; angleCenter <= 180; angleCenter++) {
     results.push({
         radiusCenter,
         radiusServer,
+        radius,
         distance,
         angleServo1,
         angleServo2,
