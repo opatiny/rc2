@@ -19,4 +19,3 @@ console.log(myFunction);
 
 //var theFunction = eval(myFunction);
 
-module.exports = myFunction;
