@@ -1,9 +1,9 @@
 "use srict";
 
-var formula1 = require('./formula1.js');
-var formula2 = require('./formula2.js');
-var formula3 = require('./formula3.js');
-var formula4 = require('./formula4.js');
+var formula1 = require('./formula.js').formula1;
+var formula2 = require('./formula.js').formula2;
+var formula3 = require('./formula.js').formula3;
+var formula4 = require('./formula.js').formula4;
 
 var radiusCenter = 40; // rayon du cercle défini par la masse au centre du cylindre en [mm]
 var radiusServo = 40; // rayon défini par l'axe du servo en [mm]
@@ -33,6 +33,7 @@ for( var angleCenter = 0; angleCenter <= 180; angleCenter+=10) {
         angleServo14,
         angleCenter
     });
+
     console.log(angleCenter+'\t'+angleServo11.a1+'\t'+angleServo12.a1+'\t'+angleServo13.a1+'\t'+angleServo14.a1);
 }
 
