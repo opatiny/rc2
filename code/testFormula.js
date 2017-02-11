@@ -14,7 +14,7 @@ var distance = Math.sqrt(radiusServo**2 + radius**2); // distance between point 
 var results=[];
 
 
-for( var angleCenter = 0; angleCenter <= 180; angleCenter+=10) {
+for(var angleCenter = 0; angleCenter <= 180; angleCenter+=10) {
     var angleServo11 =  formula1(radius, radiusServo, radiusCenter, angleCenter, distance);
     var angleServo12 =  formula2(radius, radiusServo, radiusCenter, angleCenter, distance);
     var angleServo13 =  formula3(radius, radiusServo, radiusCenter, angleCenter, distance);
@@ -34,7 +34,7 @@ for( var angleCenter = 0; angleCenter <= 180; angleCenter+=10) {
         angleCenter
     });
 
-    console.log(angleCenter+'\t'+angleServo11.a1+'\t'+angleServo12.a1+'\t'+angleServo13.a1+'\t'+angleServo14.a1);
+    console.log(angleCenter+'\t'+angleServo11+'\t'+angleServo12+'\t'+angleServo13+'\t'+angleServo14);
 }
 
 //console.log(results);
