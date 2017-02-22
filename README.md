@@ -18,10 +18,9 @@ Here is a link to a youtube video describing the project: https://youtu.be/ukGI9
 accelerometer: http://www.nxp.com/assets/documents/data/en/application-notes/AN3461.pdf
 
 aduino tutorial, how to use the accelerometer: http://playground.arduino.cc/Main/MPU-6050#short
- @opatiny
 
 wolframAlpha new formula: https://www.wolframalpha.com/input/?i=solve+a*+cos(x)+%2B+b*+cos(y)+%2B+c*(+cos+(y-x))+%2B+d%3D+0+for+x
- @opatiny
+
   
             
  
