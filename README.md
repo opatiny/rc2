@@ -16,6 +16,7 @@ The goal of this project is to realise a remote controll ball that will roll by 
 Here is a link to a youtube video describing the project: https://youtu.be/ukGI9wgj91s
 
 accelerometer: http://www.nxp.com/assets/documents/data/en/application-notes/AN3461.pdf
+
 aduino tutorial, how to use the accelerometer: http://playground.arduino.cc/Main/MPU-6050#short
  @opatiny
 
