@@ -21,6 +21,8 @@ aduino tutorial, how to use the accelerometer: http://playground.arduino.cc/Main
 
 wolframAlpha new formula: https://www.wolframalpha.com/input/?i=solve+a*+cos(x)+%2B+b*+cos(y)+%2B+c*(+cos+(y-x))+%2B+d%3D+0+for+x
 
+form memory wire: http://www.selectronic.fr/1m-de-fil-a-memoire-de-forme-flexinol-70-0-25mm.html
+
 ## Pictures
 Here are a few pictures of the project
 
