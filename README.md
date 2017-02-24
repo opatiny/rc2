@@ -21,6 +21,17 @@ aduino tutorial, how to use the accelerometer: http://playground.arduino.cc/Main
 
 wolframAlpha new formula: https://www.wolframalpha.com/input/?i=solve+a*+cos(x)+%2B+b*+cos(y)+%2B+c*(+cos+(y-x))+%2B+d%3D+0+for+x
 
-  
-            
+## Pictures
+Here are a few pictures of the project
+
+![wp_20161220_18_45_09_pro](https://cloud.githubusercontent.com/assets/17711389/23223822/5ec8fcf0-f92c-11e6-929f-96fda3b4c0c6.jpg)
+*Carpboard model of the cylinder*
+         
+ 
+![photo_2016-12-19_20-16-44](https://cloud.githubusercontent.com/assets/17711389/23224038/19a97658-f92d-11e6-8920-69330bea1507.jpg)
+*First prototype of the cylinder*
+
+
+
+
  
