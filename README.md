@@ -23,6 +23,8 @@ wolframAlpha new formula: https://www.wolframalpha.com/input/?i=solve+a*+cos(x)+
 
 form memory wire: http://www.selectronic.fr/1m-de-fil-a-memoire-de-forme-flexinol-70-0-25mm.html
 
+3 rotations servo: :http://www.selectronic.fr/1m-de-fil-a-memoire-de-forme-flexinol-70-0-25mm.html
+
 ## Pictures
 Here are a few pictures of the project
 
