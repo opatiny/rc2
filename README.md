@@ -23,8 +23,9 @@ wolframAlpha new formula: https://www.wolframalpha.com/input/?i=solve+a*+cos(x)+
 
 form memory wire: http://www.selectronic.fr/1m-de-fil-a-memoire-de-forme-flexinol-70-0-25mm.html
 
-3 rotations servo: :http://www.selectronic.fr/1m-de-fil-a-memoire-de-forme-flexinol-70-0-25mm.html
+3 rotations servo: http://www.ebay.com/itm/GWS-S125-3T-720-deg-degree-Sail-Winch-Servo-w-JR-Hitec-Futa-ba-/171951145549?hash=item280916424d:g:djEAAOSwFnFWCPsU
 
+electromagnet: http://www.ebay.com/itm/DC-12V-P20-15-Holding-Electric-Magnet-Lifting-2-5KG-Solenoid-Electromagnet-NEW-/152323915690?hash=item2377367faa:g:q~gAAOSwXeJYL7jX
 ## Pictures
 Here are a few pictures of the project
 
