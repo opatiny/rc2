@@ -27,20 +27,21 @@ function formula4(a,b,c,d,y) {
 }
 
 
-for(var angleCenter = 0; angleCenter <= 360; angleCenter+=10) {
-    var radiusCenter = 40; // rayon du cercle défini par la masse au centre du cylindre en [mm]
-    var radiusServo = 40; // rayon défini par l'axe du servo en [mm]
-    var radius = 200; // distance between center of cylinder and center of servo [mm]
-    var distance = Math.sqrt(radiusServo**2 + radius**2); // distance between point on center circle of cylinder and end of servo axis [mm]
 
-    var a = 2*radius*radiusServo;
-    var b = -2*radius*radiusCenter;
-    var c = -2*radiusCenter*radiusServo;
-    var d = radiusCenter**2 + radiusServo**2 + radius**2 - distance**2;
+var radiusCenter = 40; // rayon du cercle défini par la masse au centre du cylindre en [mm]
+var radiusServo = 40; // rayon défini par l'axe du servo en [mm]
+var radius = 200; // distance between center of cylinder and center of servo [mm]
+var distance = Math.sqrt(radiusServo**2 + radius**2); // distance between point on center circle of cylinder and end of servo axis [mm]
+
+var a = 2*radius*radiusServo;
+var b = -2*radius*radiusCenter;
+var c = -2*radiusCenter*radiusServo;
+var d = radiusCenter**2 + radiusServo**2 + radius**2 - distance**2;
+
+for(var angleCenter = 0; angleCenter <= 360; angleCenter+=10) {
     var y = angleCenter  * Math.PI / 180;
 
-    var angleServo11 = formula1(a, b, c, d, y);
-    var angleServo12 = formula2(a, b, c, d, y);
+    var angleServo11 = formulaomula2(a, b, c, d, y);
     var angleServo13 = formula3(a, b, c, d, y);
     var angleServo14 = formula4(a, b, c, d, y);
 
