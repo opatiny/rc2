@@ -65,8 +65,18 @@
       <file leaf-file-name="formula.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wolframFormulas/formula.txt">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+<<<<<<< HEAD
+            <state relative-caret-position="495">
+              <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+=======
+            <state relative-caret-position="30">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+>>>>>>> 4e8a783eba6e8e5941bb68b3d60678663a7e9900
+=======
             <state relative-caret-position="0">
               <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+>>>>>>> d4189ad3d6a538c05257ecb8c58121e209dc906f
               <folding />
             </state>
           </provider>
@@ -195,6 +205,11 @@
           </PATH>
         </subPane>
       </pane>
+<<<<<<< HEAD
+      <pane id="Scope" />
+      <pane id="Scratches" />
+=======
+>>>>>>> d4189ad3d6a538c05257ecb8c58121e209dc906f
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -303,13 +318,35 @@
       <workItem from="1483122911312" duration="3641000" />
       <workItem from="1484583310448" duration="674000" />
       <workItem from="1484584405817" duration="146000" />
+<<<<<<< HEAD
+      <workItem from="1485974644828" duration="36000" />
+=======
       <workItem from="1484591250142" duration="1512000" />
+<<<<<<< HEAD
       <workItem from="1486817300968" duration="11915000" />
+=======
+<<<<<<< HEAD
+>>>>>>> 4e8a783eba6e8e5941bb68b3d60678663a7e9900
+=======
+      <workItem from="1486817300968" duration="11321000" />
+>>>>>>> d4189ad3d6a538c05257ecb8c58121e209dc906f
+>>>>>>> b8fb073a4db050e1304f1810c2557759860836f7
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="26961000" />
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="13570000" />
+=======
+    <option name="totallyTimeSpent" value="15046000" />
+>>>>>>> 4e8a783eba6e8e5941bb68b3d60678663a7e9900
+=======
+    <option name="totallyTimeSpent" value="26367000" />
+>>>>>>> b8fb073a4db050e1304f1810c2557759860836f7
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -319,19 +356,32 @@
       <are-packages-shown value="true" />
       <is-autoscroll-to-source value="true" />
     </todo-panel>
+>>>>>>> d4189ad3d6a538c05257ecb8c58121e209dc906f
   </component>
   <component name="ToolWindowManager">
     <frame x="357" y="151" width="2157" height="1263" extended-state="0" />
     <editor active="false" />
     <layout>
+<<<<<<< HEAD
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19820829" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16597125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> 4e8a783eba6e8e5941bb68b3d60678663a7e9900
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37721324" sideWeight="0.5015625" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948422" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23769508" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42364106" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+>>>>>>> 4e8a783eba6e8e5941bb68b3d60678663a7e9900
+=======
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24940991" sideWeight="0.4984375" order="7" side_tool="false" content_ui="tabs" />
+>>>>>>> d4189ad3d6a538c05257ecb8c58121e209dc906f
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -374,7 +424,11 @@
     <entry file="file://$PROJECT_DIR$/testFormula.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
+<<<<<<< HEAD
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> 4e8a783eba6e8e5941bb68b3d60678663a7e9900
           <folding />
         </state>
       </provider>
@@ -407,7 +461,11 @@
     <entry file="file://$PROJECT_DIR$/output_values_test">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
+<<<<<<< HEAD
+          <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+=======
           <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+>>>>>>> 4e8a783eba6e8e5941bb68b3d60678663a7e9900
           <folding />
         </state>
       </provider>
@@ -415,15 +473,26 @@
     <entry file="file://$PROJECT_DIR$/testFormula.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
+<<<<<<< HEAD
+          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+=======
           <caret line="33" column="19" lean-forward="false" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+>>>>>>> 4e8a783eba6e8e5941bb68b3d60678663a7e9900
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/formula.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+=======
     <entry file="file://$PROJECT_DIR$/wolframFormulas/formula.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+>>>>>>> 4e8a783eba6e8e5941bb68b3d60678663a7e9900
           <folding />
         </state>
       </provider>
@@ -431,7 +500,11 @@
     <entry file="file://$PROJECT_DIR$/convertWolfram.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
+<<<<<<< HEAD
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+=======
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+>>>>>>> 4e8a783eba6e8e5941bb68b3d60678663a7e9900
           <folding />
         </state>
       </provider>
@@ -597,6 +670,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/givesAngleServo.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <state relative-caret-position="495">
+          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+>>>>>>> 4e8a783eba6e8e5941bb68b3d60678663a7e9900
+=======
         <state relative-caret-position="115">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
@@ -609,6 +691,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="598">
           <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+>>>>>>> d4189ad3d6a538c05257ecb8c58121e209dc906f
           <folding />
         </state>
       </provider>
