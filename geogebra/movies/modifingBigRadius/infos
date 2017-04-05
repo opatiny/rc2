@@ -1,0 +1,4 @@
+Changing parameter: servo-center distance
+
+For the three movies servoMovement1.mov, servoMovement3/2.mov and servoMovement2.mov, the length of the servo axis is 12 and the distance from center to the servo rotation axis is 40.41. So 3/2 = 60.615 and 2 = 80.82.
+In addition, we can see that the smaller the 
