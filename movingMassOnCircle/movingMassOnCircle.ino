@@ -20,9 +20,10 @@ int counter = 0;
 void loop () {
   servo1.write(angles[counter]);
   servo2.write(angles[(counter + nbAngles / 3) % nbAngles]);
-  servo3.write(angles[counter + nbAngles / 3 * 2] % nbAngles);
+  servo3.write(angles[(counter + nbAngles / 3 * 2) % nbAngles]);
   
   counter++;
-  delay(200);
+  if (counter==nbAngles) counter=0;
+  delay(50);
 
 }
