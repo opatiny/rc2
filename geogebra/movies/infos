@@ -1,2 +1,0 @@
-Note: for every situation where the centerRadius and the servoRadius are equal, as long as alpha is growing, it is a whole number, but when it decreases it has a rationnal value.
-
