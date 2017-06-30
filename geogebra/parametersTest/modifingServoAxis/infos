@@ -1,2 +1,0 @@
-For the three movies servoMovement.mov, servoMovement1/3.mov and servoMovement2/3.mov, the length of the servo axis is 12 and the distance from center to the servo rotation axis is 40.41. So 1/3 = 4 and 2/3 = 8.
-In addition, we can see that the smaller the centerRadius is, the smaller the alpha variation.
