@@ -27,17 +27,24 @@ function formula(xMassPosition, yMassPosition, bigRadius, radiusServo, distance)
 
     // a is the x component of a point situated on the circle described by the end of the servos axis, this function returns two values on the circle (a1, a2), but only one is correct.
 
-    var a1 = ( 2 * y ** 2 * R - (R - x) * delta + y * Math.sqrt(4 * ( -R * (R - x) * delta + y**2 * R**2 + (y**2 * (R - x)**2) * (s**2 - R**2) ) - delta**2) ) / ( 2 * (y**2 + (R - x)**2) );
-    var a2 = ( 2 * y ** 2 * R - (R - x) * delta - y * Math.sqrt(4 * ( -R * (R - x) * delta + y**2 * R**2 + (y**2 * (R - x)**2) * (s**2 - R**2) ) - delta**2) ) / ( 2 * (y**2 + (R - x)**2) );
+    var root = 4 * ( y**2 * R**2 - R * (R - x) * delta + y**2 * (s**2 - R**2) + (s**2 - R**2) * (R - x)**2) - delta**2;
+
+    var a1 = ( 2 * y ** 2 * R - (R - x) * delta + y * Math.sqrt( root )) / ( 2 * (y**2 + (R - x)**2) );
+    var a2 = ( 2 * y ** 2 * R - (R - x) * delta - y * Math.sqrt( root )) / ( 2 * (y**2 + (R - x)**2) );
 
     console.log(a1,a2);
 
+    // Ternary operator https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Conditional_Operator
+    var a = (y >= 0) ? Math.max(a1, a2) : Math.min(a1, a2);
+
+    /*
     var a;
-    if ((y > 0) || (y = 0)) {
+    if (y >= 0) {
         a = Math.max(a1, a2);
     } else {
         a = Math.min(a1, a2);
     }
+    */
 
     var result = Math.acos((a - R) / s) / Math.PI * 180;
 
@@ -51,15 +58,15 @@ var angleServo =  formula(xMassPosition, yMassPosition, bigRadius, radiusServo, 
 // var angleServo2 =  formula(radius, radiusServo, radiusCenter, (angleCenter+120), distance);
 // var angleServo3 =  formula(radius, radiusServo, radiusCenter, (angleCenter+240), distance);
 
-    results.push({
-        xMassPosition,
-        yMassPosition,
-        angleServo
-        // angleServo2,
-        // angleServo3
-    });
+results.push({
+    xMassPosition,
+    yMassPosition,
+    angleServo
+    // angleServo2,
+    // angleServo3
+});
 
-    console.log(xMassPosition+'\t'+yMassPosition+'\t'+angleServo);
+console.log({x: xMassPosition,y: yMassPosition,alpha: angleServo});
 
 
 //console.log(results);
