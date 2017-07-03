@@ -8,8 +8,8 @@
 
 
 //var radiusCenter = 40; // rayon du cercle défini par la masse au centre du cylindre en [mm]
-var xMassPosition = 20; // composante x de la position de la masse en [mm]
-var yMassPosition = 20; // composante y de la position de la masse en [mm]
+var xMassPosition = 0; // composante x de la position de la masse en [mm]
+var yMassPosition = 40; // composante y de la position de la masse en [mm]
 var radiusServo = 40; // rayon défini par l'axe du servo en [mm]
 var bigRadius = 200; // distance between center of cylinder and center of servo [mm]
 var distance = 200; // distance between point on center circle of cylinder and end of servo axis [mm]
@@ -30,6 +30,8 @@ function formula(xMassPosition, yMassPosition, bigRadius, radiusServo, distance)
     var a1 = ( 2 * y ** 2 * R - (R - x) * delta + y * Math.sqrt(4 * ( -R * (R - x) * delta + y**2 * R**2 + (y**2 * (R - x)**2) * (s**2 - R**2) ) - delta**2) ) / ( 2 * (y**2 + (R - x)**2) );
     var a2 = ( 2 * y ** 2 * R - (R - x) * delta - y * Math.sqrt(4 * ( -R * (R - x) * delta + y**2 * R**2 + (y**2 * (R - x)**2) * (s**2 - R**2) ) - delta**2) ) / ( 2 * (y**2 + (R - x)**2) );
 
+    console.log(a1,a2);
+
     var a;
     if ((y > 0) || (y = 0)) {
         a = Math.max(a1, a2);
@@ -37,7 +39,7 @@ function formula(xMassPosition, yMassPosition, bigRadius, radiusServo, distance)
         a = Math.min(a1, a2);
     }
 
-    var result = Math.acos((a - R) / s);
+    var result = Math.acos((a - R) / s) / Math.PI * 180;
 
     return result;
 
