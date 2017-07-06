@@ -3,10 +3,10 @@
 // angleServo are the angle of the three different servos, it is between 0 and 180 degrees
 
 //var angleCenter = 180; // do not forget that angles are in rad in javascript!! (default)
-var radiusCenter = 40; // rayon du cercle défini par la masse au centre du cylindre en [mm]
-var radiusServo = 40; // rayon défini par l'axe du servo en [mm]
-var bigRadius = 200; // distance between center of cylinder and center of servo [mm]
-var distance = 200; // distance between point on center circle of cylinder and end of servo axis [mm]
+var radiusCenter = 16.2; // rayon du cercle défini par la masse au centre du cylindre en [mm]
+var radiusServo = 16.2; // rayon défini par l'axe du servo en [mm]
+var bigRadius = 109.2; // distance between center of cylinder and center of servo [mm]
+var distance = 109.2; // distance between point on center circle of cylinder and end of servo axis [mm]
 
 
 function formula(angleCenter, radiusCenter, bigRadius, radiusServo, distance) {
@@ -43,10 +43,10 @@ function formula(angleCenter, radiusCenter, bigRadius, radiusServo, distance) {
 var results=[];
 
 var angleCenter;
-for(angleCenter = 0; angleCenter < 360; angleCenter += 10) {
-    var angleServo = formula(angleCenter, radiusCenter, bigRadius, radiusServo, distance);
-    var angleServo2 =  formula((angleCenter+120), radiusCenter, bigRadius, radiusServo, distance);
-    var angleServo3 =  formula((angleCenter+240), radiusCenter, bigRadius, radiusServo, distance);
+for(angleCenter = 0; angleCenter < 360; angleCenter += 5) {
+    var angleServo = Math.round( formula(angleCenter, radiusCenter, bigRadius, radiusServo, distance) );
+    var angleServo2 = Math.round( formula((angleCenter+120), radiusCenter, bigRadius, radiusServo, distance) );
+    var angleServo3 = Math.round( formula((angleCenter+240), radiusCenter, bigRadius, radiusServo, distance) );
 
     results.push({
         angleCenter,
@@ -55,7 +55,8 @@ for(angleCenter = 0; angleCenter < 360; angleCenter += 10) {
         angleServo3
     });
 
-    console.log(angleCenter + '\t' + angleServo + '\t' + angleServo2 + '\t' + angleServo3);
+    console.log(angleServo3);
+    // console.log(angleCenter + '\t' + angleServo + '\t' + angleServo2 + '\t' + angleServo3);
 }
 
 
