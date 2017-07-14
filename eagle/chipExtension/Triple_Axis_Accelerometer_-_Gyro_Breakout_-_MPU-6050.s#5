@@ -2259,6 +2259,7 @@ chip</description>
 <part name="R4" library="microbuilder" deviceset="RESISTOR" device="0805" value="220"/>
 <part name="JP1" library="microbuilder" deviceset="HEADER-3X04" device=""/>
 <part name="U$1" library="CHIP_Pro-Footprint" deviceset="CHIP_PRO" device=""/>
+<part name="U$9" library="microbuilder" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2297,6 +2298,7 @@ chip</description>
 <instance part="R4" gate="G$1" x="63.5" y="5.08" rot="R180"/>
 <instance part="JP1" gate="G$1" x="76.2" y="17.78"/>
 <instance part="U$1" gate="G$1" x="-81.28" y="63.5"/>
+<instance part="U$9" gate="G$1" x="43.18" y="25.4"/>
 </instances>
 <busses>
 </busses>
@@ -2420,6 +2422,68 @@ chip</description>
 <pinref part="C6" gate="G$1" pin="P$2"/>
 <pinref part="U$18" gate="G$1" pin="GND"/>
 </segment>
+<segment>
+<wire x1="33.02" y1="30.48" x2="43.18" y2="30.48" width="0.1524" layer="91"/>
+<label x="35.56" y="30.48" size="1.778" layer="95"/>
+<pinref part="U3" gate="G$1" pin="PWM15"/>
+<wire x1="43.18" y1="30.48" x2="43.18" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="U$9" gate="G$1" pin="GND"/>
+<wire x1="33.02" y1="33.02" x2="43.18" y2="33.02" width="0.1524" layer="91"/>
+<label x="35.56" y="33.02" size="1.778" layer="95"/>
+<pinref part="U3" gate="G$1" pin="PWM14"/>
+<wire x1="43.18" y1="30.48" x2="43.18" y2="33.02" width="0.1524" layer="91"/>
+<junction x="43.18" y="30.48"/>
+<wire x1="33.02" y1="35.56" x2="43.18" y2="35.56" width="0.1524" layer="91"/>
+<label x="35.56" y="35.56" size="1.778" layer="95"/>
+<pinref part="U3" gate="G$1" pin="PWM13"/>
+<wire x1="43.18" y1="33.02" x2="43.18" y2="35.56" width="0.1524" layer="91"/>
+<junction x="43.18" y="33.02"/>
+<wire x1="33.02" y1="38.1" x2="43.18" y2="38.1" width="0.1524" layer="91"/>
+<label x="35.56" y="38.1" size="1.778" layer="95"/>
+<pinref part="U3" gate="G$1" pin="PWM12"/>
+<wire x1="43.18" y1="35.56" x2="43.18" y2="38.1" width="0.1524" layer="91"/>
+<junction x="43.18" y="35.56"/>
+<wire x1="33.02" y1="40.64" x2="43.18" y2="40.64" width="0.1524" layer="91"/>
+<label x="35.56" y="40.64" size="1.778" layer="95"/>
+<pinref part="U3" gate="G$1" pin="PWM11"/>
+<wire x1="43.18" y1="38.1" x2="43.18" y2="40.64" width="0.1524" layer="91"/>
+<junction x="43.18" y="38.1"/>
+<wire x1="33.02" y1="58.42" x2="43.18" y2="58.42" width="0.1524" layer="91"/>
+<label x="35.56" y="58.42" size="1.778" layer="95"/>
+<pinref part="U3" gate="G$1" pin="PWM4"/>
+<wire x1="33.02" y1="55.88" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
+<label x="35.56" y="55.88" size="1.778" layer="95"/>
+<pinref part="U3" gate="G$1" pin="PWM5"/>
+<wire x1="43.18" y1="58.42" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="53.34" x2="43.18" y2="53.34" width="0.1524" layer="91"/>
+<label x="35.56" y="53.34" size="1.778" layer="95"/>
+<pinref part="U3" gate="G$1" pin="PWM6"/>
+<wire x1="43.18" y1="55.88" x2="43.18" y2="53.34" width="0.1524" layer="91"/>
+<junction x="43.18" y="55.88"/>
+<wire x1="33.02" y1="50.8" x2="43.18" y2="50.8" width="0.1524" layer="91"/>
+<label x="35.56" y="50.8" size="1.778" layer="95"/>
+<pinref part="U3" gate="G$1" pin="PWM7"/>
+<wire x1="43.18" y1="53.34" x2="43.18" y2="50.8" width="0.1524" layer="91"/>
+<junction x="43.18" y="53.34"/>
+<wire x1="33.02" y1="48.26" x2="43.18" y2="48.26" width="0.1524" layer="91"/>
+<label x="35.56" y="48.26" size="1.778" layer="95"/>
+<pinref part="U3" gate="G$1" pin="PWM8"/>
+<wire x1="43.18" y1="50.8" x2="43.18" y2="48.26" width="0.1524" layer="91"/>
+<junction x="43.18" y="50.8"/>
+<wire x1="33.02" y1="45.72" x2="43.18" y2="45.72" width="0.1524" layer="91"/>
+<label x="35.56" y="45.72" size="1.778" layer="95"/>
+<pinref part="U3" gate="G$1" pin="PWM9"/>
+<wire x1="43.18" y1="48.26" x2="43.18" y2="45.72" width="0.1524" layer="91"/>
+<junction x="43.18" y="48.26"/>
+<wire x1="33.02" y1="43.18" x2="43.18" y2="43.18" width="0.1524" layer="91"/>
+<label x="35.56" y="43.18" size="1.778" layer="95"/>
+<pinref part="U3" gate="G$1" pin="PWM10"/>
+<wire x1="43.18" y1="45.72" x2="43.18" y2="43.18" width="0.1524" layer="91"/>
+<junction x="43.18" y="45.72"/>
+<wire x1="43.18" y1="40.64" x2="43.18" y2="43.18" width="0.1524" layer="91"/>
+<junction x="43.18" y="40.64"/>
+<junction x="43.18" y="43.18"/>
+</segment>
 </net>
 <net name="N$3" class="0">
 <segment>
@@ -2518,90 +2582,6 @@ chip</description>
 <pinref part="R1" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="PWM4" class="0">
-<segment>
-<wire x1="33.02" y1="58.42" x2="43.18" y2="58.42" width="0.1524" layer="91"/>
-<label x="35.56" y="58.42" size="1.778" layer="95"/>
-<pinref part="U3" gate="G$1" pin="PWM4"/>
-</segment>
-</net>
-<net name="PWM5" class="0">
-<segment>
-<wire x1="33.02" y1="55.88" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
-<label x="35.56" y="55.88" size="1.778" layer="95"/>
-<pinref part="U3" gate="G$1" pin="PWM5"/>
-</segment>
-</net>
-<net name="PWM6" class="0">
-<segment>
-<wire x1="33.02" y1="53.34" x2="43.18" y2="53.34" width="0.1524" layer="91"/>
-<label x="35.56" y="53.34" size="1.778" layer="95"/>
-<pinref part="U3" gate="G$1" pin="PWM6"/>
-</segment>
-</net>
-<net name="PWM7" class="0">
-<segment>
-<wire x1="33.02" y1="50.8" x2="43.18" y2="50.8" width="0.1524" layer="91"/>
-<label x="35.56" y="50.8" size="1.778" layer="95"/>
-<pinref part="U3" gate="G$1" pin="PWM7"/>
-</segment>
-</net>
-<net name="PWM8" class="0">
-<segment>
-<wire x1="33.02" y1="48.26" x2="43.18" y2="48.26" width="0.1524" layer="91"/>
-<label x="35.56" y="48.26" size="1.778" layer="95"/>
-<pinref part="U3" gate="G$1" pin="PWM8"/>
-</segment>
-</net>
-<net name="PWM9" class="0">
-<segment>
-<wire x1="33.02" y1="45.72" x2="43.18" y2="45.72" width="0.1524" layer="91"/>
-<label x="35.56" y="45.72" size="1.778" layer="95"/>
-<pinref part="U3" gate="G$1" pin="PWM9"/>
-</segment>
-</net>
-<net name="PWM10" class="0">
-<segment>
-<wire x1="33.02" y1="43.18" x2="43.18" y2="43.18" width="0.1524" layer="91"/>
-<label x="35.56" y="43.18" size="1.778" layer="95"/>
-<pinref part="U3" gate="G$1" pin="PWM10"/>
-</segment>
-</net>
-<net name="PWM11" class="0">
-<segment>
-<wire x1="33.02" y1="40.64" x2="43.18" y2="40.64" width="0.1524" layer="91"/>
-<label x="35.56" y="40.64" size="1.778" layer="95"/>
-<pinref part="U3" gate="G$1" pin="PWM11"/>
-</segment>
-</net>
-<net name="PWM12" class="0">
-<segment>
-<wire x1="33.02" y1="38.1" x2="43.18" y2="38.1" width="0.1524" layer="91"/>
-<label x="35.56" y="38.1" size="1.778" layer="95"/>
-<pinref part="U3" gate="G$1" pin="PWM12"/>
-</segment>
-</net>
-<net name="PWM13" class="0">
-<segment>
-<wire x1="33.02" y1="35.56" x2="43.18" y2="35.56" width="0.1524" layer="91"/>
-<label x="35.56" y="35.56" size="1.778" layer="95"/>
-<pinref part="U3" gate="G$1" pin="PWM13"/>
-</segment>
-</net>
-<net name="PWM14" class="0">
-<segment>
-<wire x1="33.02" y1="33.02" x2="43.18" y2="33.02" width="0.1524" layer="91"/>
-<label x="35.56" y="33.02" size="1.778" layer="95"/>
-<pinref part="U3" gate="G$1" pin="PWM14"/>
-</segment>
-</net>
-<net name="PWM15" class="0">
-<segment>
-<wire x1="33.02" y1="30.48" x2="43.18" y2="30.48" width="0.1524" layer="91"/>
-<label x="35.56" y="30.48" size="1.778" layer="95"/>
-<pinref part="U3" gate="G$1" pin="PWM15"/>
-</segment>
-</net>
 <net name="5.0V" class="0">
 <segment>
 <wire x1="76.2" y1="33.02" x2="83.82" y2="33.02" width="0.1524" layer="91"/>
@@ -2660,6 +2640,18 @@ chip</description>
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND@5"/>
 <wire x1="-116.84" y1="104.14" x2="-127" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="TWI1-SCK"/>
+<wire x1="-116.84" y1="53.34" x2="-129.54" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="TWI1-SDA"/>
+<wire x1="-116.84" y1="48.26" x2="-129.54" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
