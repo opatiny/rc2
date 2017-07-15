@@ -2032,6 +2032,120 @@ chip</description>
 <vertex x="-3.75" y="24.1"/>
 </polygon>
 </package>
+<package name="CHIP_PRO_HOLE">
+<wire x1="15" y1="22.5" x2="15" y2="-22.5" width="0" layer="49"/>
+<wire x1="-15" y1="22.5" x2="15" y2="22.5" width="0" layer="49"/>
+<wire x1="-15" y1="22.5" x2="-15" y2="-22.5" width="0" layer="49"/>
+<wire x1="-15" y1="-22.5" x2="15" y2="-22.5" width="0" layer="49"/>
+<wire x1="16" y1="24.1" x2="3.5" y2="24.1" width="0.127" layer="21"/>
+<wire x1="3.5" y1="24.1" x2="-3.75" y2="24.1" width="0.127" layer="21"/>
+<wire x1="-3.75" y1="24.1" x2="-14.5857875" y2="24.1" width="0.127" layer="21"/>
+<wire x1="-14.5857875" y1="24.1" x2="-16" y2="22.6857875" width="0.127" layer="21"/>
+<wire x1="-16" y1="22.6857875" x2="-16" y2="-23.5" width="0.127" layer="21"/>
+<wire x1="-16" y1="-23.5" x2="16" y2="-23.5" width="0.127" layer="21"/>
+<wire x1="16" y1="-23.5" x2="16" y2="24.1" width="0.127" layer="21"/>
+<wire x1="3.5" y1="24.1" x2="3.5" y2="25" width="0.127" layer="21"/>
+<wire x1="-3.75" y1="24.1" x2="-3.75" y2="25" width="0.127" layer="21"/>
+<wire x1="-3.75" y1="25" x2="3.5" y2="25" width="0.127" layer="21"/>
+<smd name="AGND" x="6" y="-22.5" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="BAT" x="-15" y="1.27" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="CHG-IN" x="-15" y="11.43" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="CSID0" x="15" y="-1.27" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="CSID1" x="15" y="-3.81" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="CSID2" x="15" y="-6.35" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="CSID3" x="15" y="-8.89" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="CSID4" x="15" y="-11.43" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="CSID5" x="15" y="-13.97" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="CSID6" x="15" y="-16.51" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="CSID7" x="15" y="-19.05" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="CSIHSYNC" x="15" y="3.81" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="CSIMCLK" x="15" y="6.35" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="CSIPCK" x="15" y="8.89" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="CSIVSYNC" x="15" y="1.27" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="GND@0" x="15" y="19.05" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="GND@1" x="-12" y="-22.5" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="GND@2" x="-15" y="6.35" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="GND@3" x="-15" y="19.05" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="GND@4" x="-12" y="23" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="VBUS" x="-6" y="23" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="GND@6" x="6" y="23" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="GND@7" x="12" y="23" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="HPCOM" x="-8" y="-22.5" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="HPL" x="-10" y="-22.5" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="HPR" x="-6" y="-22.5" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="I2S+SPDIF" x="4" y="-22.5" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="I2S-BCLK" x="-2" y="-22.5" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="I2S-DO" x="2" y="-22.5" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="I2S-LRCK" x="0" y="-22.5" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="I2S-MCLK" x="-4" y="-22.5" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="LRADC" x="15" y="11.43" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="MICIN1" x="8" y="-22.5" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="MICIN2" x="10" y="-22.5" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="PWM0" x="-15" y="-1.27" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="PWM1" x="-15" y="-3.81" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="PWRON" x="-15" y="8.89" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="TS" x="-15" y="3.81" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="TWI1-SCK" x="-15" y="-6.35" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="TWI1-SDA" x="-15" y="-8.89" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="UART1-RX" x="15" y="13.97" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="UART1-TX" x="15" y="16.51" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="UART2-CTS" x="-15" y="-16.51" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="UART2-RTS" x="-15" y="-19.05" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="UART2-RX" x="-15" y="-13.97" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="UART2-TX" x="-15" y="-11.43" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="USB0_N" x="-10" y="23" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="USB0_P" x="-8" y="23" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="USB1_N" x="8" y="23" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="USB1_P" x="10" y="23" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="IPSOUT" x="-15" y="13.97" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="VCC3V3" x="-15" y="16.51" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="VMIC" x="12" y="-22.5" dx="2" dy="1" layer="1" rot="R90"/>
+<text x="-13" y="26" size="1.27" layer="25" font="vector" ratio="12">&gt;NAME</text>
+<text x="-13" y="24.5" size="1.27" layer="27" font="vector" ratio="12">&gt;VALUE</text>
+<polygon width="0.127" layer="21">
+<vertex x="-3.75" y="25"/>
+<vertex x="3.75" y="25"/>
+<vertex x="3.75" y="24.1"/>
+<vertex x="-3.75" y="24.1"/>
+</polygon>
+<pad name="GND@3-1" x="-13.97" y="19.05" drill="0.9" diameter="1.6764" shape="long"/>
+<pad name="VCC3V3-1" x="-13.97" y="16.51" drill="0.9" diameter="1.6764" shape="long"/>
+<pad name="IPSOUT-1" x="-13.97" y="13.97" drill="0.9" diameter="1.6764" shape="long"/>
+<pad name="CHG-IN-1" x="-13.97" y="11.43" drill="0.9" diameter="1.6764" shape="long"/>
+<pad name="PWRON-1" x="-13.97" y="8.89" drill="0.9" diameter="1.6764" shape="long"/>
+<pad name="GND@2-1" x="-13.97" y="6.35" drill="0.9" diameter="1.6764" shape="long"/>
+<pad name="TS-1" x="-13.97" y="3.81" drill="0.9" diameter="1.6764" shape="long"/>
+<pad name="BAT-1" x="-13.97" y="1.27" drill="0.9" diameter="1.6764" shape="long"/>
+<pad name="PWM0-1" x="-13.97" y="-1.27" drill="0.9" diameter="1.6764" shape="long"/>
+<pad name="PWM1-1" x="-13.97" y="-3.81" drill="0.9" diameter="1.6764" shape="long"/>
+<pad name="TWI1-SCK-1" x="-13.97" y="-6.35" drill="0.9" diameter="1.6764" shape="long"/>
+<pad name="TWI1-SDA-1" x="-13.97" y="-8.89" drill="0.9" diameter="1.6764" shape="long"/>
+<pad name="UART2-TX-1" x="-13.97" y="-11.43" drill="0.9" diameter="1.6764" shape="long"/>
+<pad name="UART2-RX-1" x="-13.97" y="-13.97" drill="0.9" diameter="1.6764" shape="long"/>
+<pad name="UART2-CTS-1" x="-13.97" y="-16.51" drill="0.9" diameter="1.6764" shape="long"/>
+<pad name="UART2-RTS-1" x="-13.97" y="-19.05" drill="0.9" diameter="1.6764" shape="long"/>
+<pad name="GND@0-1" x="13.97" y="19.05" drill="0.9" diameter="1.6764" shape="long"/>
+<pad name="UART1-TX-1" x="13.97" y="16.51" drill="0.9" diameter="1.6764" shape="long"/>
+<pad name="UART1-RX-1" x="13.97" y="13.97" drill="0.9" diameter="1.6764" shape="long"/>
+<pad name="LRADC-1" x="13.97" y="11.43" drill="0.9" diameter="1.6764" shape="long"/>
+<pad name="CSIPCK-1" x="13.97" y="8.89" drill="0.9" diameter="1.6764" shape="long"/>
+<pad name="CSIMCLK-1" x="13.97" y="6.35" drill="0.9" diameter="1.6764" shape="long"/>
+<pad name="CSIHSYNC-1" x="13.97" y="3.81" drill="0.9" diameter="1.6764" shape="long"/>
+<pad name="CSIVSYNC-1" x="13.97" y="1.27" drill="0.9" diameter="1.6764" shape="long"/>
+<pad name="CSID0-1" x="13.97" y="-1.27" drill="0.9" diameter="1.6764" shape="long"/>
+<pad name="CSID1-1" x="13.97" y="-3.81" drill="0.9" diameter="1.6764" shape="long"/>
+<pad name="CSID2-1" x="13.97" y="-6.35" drill="0.9" diameter="1.6764" shape="long"/>
+<pad name="CSID3-1" x="13.97" y="-8.89" drill="0.9" diameter="1.6764" shape="long"/>
+<pad name="CSID4-1" x="13.97" y="-11.43" drill="0.9" diameter="1.6764" shape="long"/>
+<pad name="CSID5-1" x="13.97" y="-13.97" drill="0.9" diameter="1.6764" shape="long"/>
+<pad name="CSID6-1" x="13.97" y="-16.51" drill="0.9" diameter="1.6764" shape="long"/>
+<pad name="CSID7-1" x="13.97" y="-19.05" drill="0.9" diameter="1.6764" shape="long"/>
+<wire x1="15.24" y1="1.27" x2="13.97" y2="1.27" width="0.4064" layer="1"/>
+<wire x1="15.24" y1="-1.27" x2="13.97" y2="-1.27" width="0.4064" layer="1"/>
+<wire x1="13.97" y1="-3.81" x2="15.24" y2="-3.81" width="0.4064" layer="1"/>
+<wire x1="15.24" y1="-6.35" x2="13.97" y2="-6.35" width="0.4064" layer="1"/>
+<wire x1="15.24" y1="-8.89" x2="13.97" y2="-8.89" width="0.4064" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CHIP_PRO">
@@ -2161,6 +2275,66 @@ chip</description>
 <connect gate="G$1" pin="USB1_P" pad="USB1_P"/>
 <connect gate="G$1" pin="VBUS" pad="VBUS"/>
 <connect gate="G$1" pin="VCC3V3" pad="VCC3V3"/>
+<connect gate="G$1" pin="VMIC" pad="VMIC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="HOLE" package="CHIP_PRO_HOLE">
+<connects>
+<connect gate="G$1" pin="AGND" pad="AGND"/>
+<connect gate="G$1" pin="BAT" pad="BAT BAT-1"/>
+<connect gate="G$1" pin="CHG-IN" pad="CHG-IN CHG-IN-1"/>
+<connect gate="G$1" pin="CSID0" pad="CSID0 CSID0-1"/>
+<connect gate="G$1" pin="CSID1" pad="CSID1 CSID1-1"/>
+<connect gate="G$1" pin="CSID2" pad="CSID2 CSID2-1"/>
+<connect gate="G$1" pin="CSID3" pad="CSID3 CSID3-1"/>
+<connect gate="G$1" pin="CSID4" pad="CSID4 CSID4-1"/>
+<connect gate="G$1" pin="CSID5" pad="CSID5 CSID5-1"/>
+<connect gate="G$1" pin="CSID6" pad="CSID6 CSID6-1"/>
+<connect gate="G$1" pin="CSID7" pad="CSID7 CSID7-1"/>
+<connect gate="G$1" pin="CSIHSYNC" pad="CSIHSYNC CSIHSYNC-1"/>
+<connect gate="G$1" pin="CSIMCLK" pad="CSIMCLK CSIMCLK-1"/>
+<connect gate="G$1" pin="CSIPCK" pad="CSIPCK CSIPCK-1"/>
+<connect gate="G$1" pin="CSIVSYNC" pad="CSIVSYNC CSIVSYNC-1"/>
+<connect gate="G$1" pin="GND@0" pad="GND@0 GND@0-1"/>
+<connect gate="G$1" pin="GND@2" pad="GND@2 GND@2-1"/>
+<connect gate="G$1" pin="GND@3" pad="GND@3 GND@3-1"/>
+<connect gate="G$1" pin="GND@4" pad="GND@4"/>
+<connect gate="G$1" pin="GND@5" pad="GND@1"/>
+<connect gate="G$1" pin="GND@6" pad="GND@6"/>
+<connect gate="G$1" pin="GND@7" pad="GND@7"/>
+<connect gate="G$1" pin="HPCOM" pad="HPCOM"/>
+<connect gate="G$1" pin="HPL" pad="HPL"/>
+<connect gate="G$1" pin="HPR" pad="HPR"/>
+<connect gate="G$1" pin="I2SBCLK" pad="I2S-BCLK"/>
+<connect gate="G$1" pin="I2SDO" pad="I2S-DO"/>
+<connect gate="G$1" pin="I2SLRCK" pad="I2S-LRCK"/>
+<connect gate="G$1" pin="I2SMCLK" pad="I2S-MCLK"/>
+<connect gate="G$1" pin="I2SSPDIF" pad="I2S+SPDIF"/>
+<connect gate="G$1" pin="IPSOUT" pad="IPSOUT IPSOUT-1"/>
+<connect gate="G$1" pin="LRADC" pad="LRADC LRADC-1"/>
+<connect gate="G$1" pin="MICIN1" pad="MICIN1"/>
+<connect gate="G$1" pin="MICIN2" pad="MICIN2"/>
+<connect gate="G$1" pin="PWM0" pad="PWM0 PWM0-1"/>
+<connect gate="G$1" pin="PWM1" pad="PWM1 PWM1-1"/>
+<connect gate="G$1" pin="PWRON" pad="PWRON PWRON-1"/>
+<connect gate="G$1" pin="TS" pad="TS TS-1"/>
+<connect gate="G$1" pin="TWI1-SCK" pad="TWI1-SCK TWI1-SCK-1"/>
+<connect gate="G$1" pin="TWI1-SDA" pad="TWI1-SDA TWI1-SDA-1"/>
+<connect gate="G$1" pin="UART1-RX" pad="UART1-RX UART1-RX-1"/>
+<connect gate="G$1" pin="UART1-TX" pad="UART1-TX UART1-TX-1"/>
+<connect gate="G$1" pin="UART2-CTS" pad="UART2-CTS UART2-CTS-1"/>
+<connect gate="G$1" pin="UART2-RTS" pad="UART2-RTS UART2-RTS-1"/>
+<connect gate="G$1" pin="UART2-RX" pad="UART2-RX UART2-RX-1"/>
+<connect gate="G$1" pin="UART2-TX" pad="UART2-TX UART2-TX-1"/>
+<connect gate="G$1" pin="USB0_N" pad="USB0_N"/>
+<connect gate="G$1" pin="USB0_P" pad="USB0_P"/>
+<connect gate="G$1" pin="USB1_N" pad="USB1_N"/>
+<connect gate="G$1" pin="USB1_P" pad="USB1_P"/>
+<connect gate="G$1" pin="VBUS" pad="VBUS"/>
+<connect gate="G$1" pin="VCC3V3" pad="VCC3V3 VCC3V3-1"/>
 <connect gate="G$1" pin="VMIC" pad="VMIC"/>
 </connects>
 <technologies>
@@ -5657,49 +5831,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <description>&lt;b&gt;Jumpers&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="JP4" library_version="1">
-<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
-<wire x1="-5.08" y1="-1.016" x2="-5.08" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="2.286" y1="1.27" x2="0.254" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="0" y1="1.016" x2="0.254" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="2.286" y1="-1.27" x2="0.254" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="0" y1="-1.016" x2="0.254" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="2.286" y1="-1.27" x2="2.54" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="2.286" y1="1.27" x2="2.54" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="-0.254" y1="1.27" x2="0" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="-0.254" y1="1.27" x2="-2.286" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="1.016" x2="-2.286" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-2.794" y1="1.27" x2="-2.54" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="1.016" x2="-4.826" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-2.794" y1="1.27" x2="-4.826" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-0.254" y1="-1.27" x2="0" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-1.016" x2="-2.286" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-2.794" y1="-1.27" x2="-2.54" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-1.016" x2="-4.826" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-0.254" y1="-1.27" x2="-2.286" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-2.794" y1="-1.27" x2="-4.826" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="1.016" x2="5.08" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="4.826" y1="1.27" x2="5.08" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="4.826" y1="-1.27" x2="5.08" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-1.016" x2="2.794" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="1.016" x2="2.794" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="4.826" y1="1.27" x2="2.794" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="4.826" y1="-1.27" x2="2.794" y2="-1.27" width="0.1524" layer="21"/>
-<pad name="1" x="-3.81" y="0" drill="0.9144" shape="long" rot="R90"/>
-<pad name="2" x="-1.27" y="0" drill="0.9144" shape="long" rot="R90"/>
-<pad name="3" x="1.27" y="0" drill="0.9144" shape="long" rot="R90"/>
-<pad name="4" x="3.81" y="0" drill="0.9144" shape="long" rot="R90"/>
-<text x="-5.08" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.81" y="-2.667" size="0.9906" layer="21" ratio="12">1</text>
-<text x="-1.27" y="-2.667" size="0.9906" layer="21" ratio="12">2</text>
-<text x="1.27" y="-2.667" size="0.9906" layer="21" ratio="12">3</text>
-<text x="3.81" y="-2.667" size="0.9906" layer="21" ratio="12">4</text>
-<text x="-5.08" y="-4.064" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-4.1148" y1="-0.3048" x2="-3.5052" y2="0.3048" layer="51"/>
-<rectangle x1="-1.5748" y1="-0.3048" x2="-0.9652" y2="0.3048" layer="51"/>
-<rectangle x1="0.9652" y1="-0.3048" x2="1.5748" y2="0.3048" layer="51"/>
-<rectangle x1="3.5052" y1="-0.3048" x2="4.1148" y2="0.3048" layer="51"/>
-</package>
 <package name="JP1" library_version="1">
 <description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
 <wire x1="-1.016" y1="0" x2="-1.27" y2="0.254" width="0.1524" layer="21"/>
@@ -5725,27 +5856,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package>
 </packages>
 <symbols>
-<symbol name="JP4E" library_version="1">
-<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-2.54" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="1.27" width="0.4064" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.4064" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="-2.54" y2="1.27" width="0.4064" layer="94"/>
-<wire x1="-3.175" y1="0" x2="5.08" y2="0" width="0.4064" layer="94"/>
-<wire x1="5.08" y1="0" x2="5.715" y2="0" width="0.4064" layer="94"/>
-<wire x1="5.715" y1="0" x2="5.715" y2="0.635" width="0.4064" layer="94"/>
-<wire x1="5.715" y1="0.635" x2="-3.175" y2="0.635" width="0.4064" layer="94"/>
-<wire x1="-3.175" y1="0.635" x2="-3.175" y2="0" width="0.4064" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="1.27" width="0.4064" layer="94"/>
-<wire x1="5.08" y1="0" x2="5.08" y2="1.27" width="0.1524" layer="94"/>
-<text x="-3.81" y="0" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="8.255" y="0" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="1" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="2" x="0" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="3" x="2.54" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="4" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
-</symbol>
 <symbol name="J1" library_version="1">
 <wire x1="0" y1="2.54" x2="0" y2="3.81" width="0.4064" layer="94"/>
 <wire x1="0" y1="3.81" x2="0" y2="5.08" width="0.1524" layer="94"/>
@@ -5762,25 +5872,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="JP4E" prefix="JP" uservalue="yes" library_version="1">
-<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="JP4E" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="JP4">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="JP1Q" prefix="JP" uservalue="yes" library_version="1">
 <description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
 <gates>
@@ -5839,7 +5930,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R3" library="microbuilder" deviceset="RESISTOR" device="0805" value="220"/>
 <part name="R4" library="microbuilder" deviceset="RESISTOR" device="0805" value="220"/>
 <part name="JP1" library="microbuilder" deviceset="HEADER-3X04" device=""/>
-<part name="U$1" library="CHIP_Pro-Footprint" deviceset="CHIP_PRO" device=""/>
+<part name="U$1" library="CHIP_Pro-Footprint" deviceset="CHIP_PRO" device="HOLE" value="CHIP_PROHOLE"/>
 <part name="U$9" library="microbuilder" deviceset="GND" device=""/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" value="10k"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" value="10k"/>
@@ -5851,15 +5942,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="JP2" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP4E" device=""/>
-<part name="JP3" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP4E" device=""/>
-<part name="JP4" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP4E" device=""/>
-<part name="JP5" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP4E" device=""/>
-<part name="JP6" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP4E" device=""/>
-<part name="JP7" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP4E" device=""/>
-<part name="JP8" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP4E" device=""/>
-<part name="JP9" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP4E" device=""/>
-<part name="JP10" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP1Q" device=""/>
+<part name="JP-10" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP1Q" device="" value="A"/>
 </parts>
 <sheets>
 <sheet>
@@ -5893,8 +5976,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="JP1" gate="G$1" x="33.02" y="20.32"/>
 <instance part="U$1" gate="G$1" x="-81.28" y="63.5"/>
 <instance part="U$9" gate="G$1" x="58.42" y="55.88"/>
-<instance part="R5" gate="G$1" x="139.7" y="78.74"/>
-<instance part="R6" gate="G$1" x="139.7" y="76.2"/>
+<instance part="R5" gate="G$1" x="137.16" y="83.82" rot="R90"/>
+<instance part="R6" gate="G$1" x="144.78" y="81.28" rot="R90"/>
 <instance part="IN5V" gate="-1" x="-144.78" y="88.9" rot="R180"/>
 <instance part="IN5V" gate="-2" x="-144.78" y="91.44" rot="R180"/>
 <instance part="BAT3.7V" gate="-1" x="-144.78" y="68.58" rot="R180"/>
@@ -5905,15 +5988,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="P+4" gate="VCC" x="40.64" y="30.48"/>
 <instance part="P+5" gate="VCC" x="40.64" y="20.32"/>
 <instance part="P+6" gate="VCC" x="40.64" y="10.16"/>
-<instance part="JP2" gate="G$1" x="-177.8" y="93.98" rot="R90"/>
-<instance part="JP3" gate="G$1" x="-177.8" y="76.2" rot="R90"/>
-<instance part="JP4" gate="G$1" x="-177.8" y="55.88" rot="R90"/>
-<instance part="JP5" gate="G$1" x="-177.8" y="35.56" rot="R90"/>
-<instance part="JP6" gate="G$1" x="-193.04" y="96.52" rot="R270"/>
-<instance part="JP7" gate="G$1" x="-193.04" y="78.74" rot="R270"/>
-<instance part="JP8" gate="G$1" x="-193.04" y="58.42" rot="R270"/>
-<instance part="JP9" gate="G$1" x="-193.04" y="38.1" rot="R270"/>
-<instance part="JP10" gate="A" x="-132.08" y="68.58" rot="R90"/>
+<instance part="JP-10" gate="A" x="-132.08" y="68.58" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -5930,7 +6005,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="BAT"/>
-<pinref part="JP10" gate="A" pin="1"/>
+<pinref part="JP-10" gate="A" pin="1"/>
 <wire x1="-124.46" y1="68.58" x2="-116.84" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -5960,7 +6035,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <pinref part="BAT3.7V" gate="-1" pin="S"/>
 <wire x1="-142.24" y1="68.58" x2="-139.7" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="JP10" gate="A" pin="2"/>
+<pinref part="JP-10" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -6054,6 +6129,13 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="-2.54" y="86.36" size="1.778" layer="95"/>
 <pinref part="U3" gate="G$1" pin="#OE"/>
 <wire x1="-2.54" y1="86.36" x2="-2.54" y2="81.28" width="0.1524" layer="91"/>
+<junction x="-2.54" y="81.28"/>
+<junction x="-2.54" y="78.74"/>
+<junction x="-2.54" y="76.2"/>
+<junction x="-2.54" y="73.66"/>
+<junction x="-2.54" y="71.12"/>
+<junction x="-2.54" y="68.58"/>
+<junction x="-2.54" y="66.04"/>
 </segment>
 <segment>
 <wire x1="-12.7" y1="88.9" x2="-12.7" y2="86.36" width="0.1524" layer="91"/>
@@ -6189,7 +6271,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="127" y="78.74" size="1.778" layer="95"/>
 <pinref part="U1" gate="G$1" pin="SCL"/>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="134.62" y1="78.74" x2="124.46" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="78.74" x2="124.46" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="7.62" y1="91.44" x2="-2.54" y2="91.44" width="0.1524" layer="91"/>
@@ -6203,17 +6285,13 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="-129.54" y1="53.34" x2="-137.16" y2="53.34" width="0.1524" layer="91"/>
 <label x="-134.62" y="53.594" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="144.78" y1="78.74" x2="149.86" y2="78.74" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="SDA" class="0">
 <segment>
 <label x="127" y="76.2" size="1.778" layer="95"/>
 <pinref part="U1" gate="G$1" pin="SDA"/>
 <pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="134.62" y1="76.2" x2="124.46" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="76.2" x2="124.46" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="7.62" y1="93.98" x2="-2.54" y2="93.98" width="0.1524" layer="91"/>
@@ -6224,10 +6302,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="U$1" gate="G$1" pin="TWI1-SDA"/>
 <wire x1="-116.84" y1="48.26" x2="-137.16" y2="48.26" width="0.1524" layer="91"/>
 <label x="-135.128" y="48.514" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="144.78" y1="76.2" x2="149.86" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VIO" class="0">
@@ -6338,13 +6412,20 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="106.68" y1="114.3" x2="106.68" y2="124.46" width="0.1524" layer="91"/>
 <label x="106.68" y="119.38" size="1.778" layer="95" rot="R90"/>
 </segment>
+<segment>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="137.16" y1="88.9" x2="137.16" y2="91.44" width="0.1524" layer="91"/>
+<label x="132.08" y="88.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="144.78" y1="86.36" x2="144.78" y2="91.44" width="0.1524" layer="91"/>
+<label x="144.78" y="88.9" size="1.778" layer="95"/>
+</segment>
 </net>
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="115,1,184.483,104.14,SJ1,,,,,"/>
-</errors>
 </schematic>
 </drawing>
 <compatibility>

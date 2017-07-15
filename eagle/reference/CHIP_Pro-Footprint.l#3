@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -234,120 +234,6 @@
 <vertex x="-3.75" y="24.1"/>
 </polygon>
 </package>
-<package name="CHIP_PRO_HOLE">
-<wire x1="15" y1="22.5" x2="15" y2="-22.5" width="0" layer="49"/>
-<wire x1="-15" y1="22.5" x2="15" y2="22.5" width="0" layer="49"/>
-<wire x1="-15" y1="22.5" x2="-15" y2="-22.5" width="0" layer="49"/>
-<wire x1="-15" y1="-22.5" x2="15" y2="-22.5" width="0" layer="49"/>
-<wire x1="16" y1="24.1" x2="3.5" y2="24.1" width="0.127" layer="21"/>
-<wire x1="3.5" y1="24.1" x2="-3.75" y2="24.1" width="0.127" layer="21"/>
-<wire x1="-3.75" y1="24.1" x2="-14.5857875" y2="24.1" width="0.127" layer="21"/>
-<wire x1="-14.5857875" y1="24.1" x2="-16" y2="22.6857875" width="0.127" layer="21"/>
-<wire x1="-16" y1="22.6857875" x2="-16" y2="-23.5" width="0.127" layer="21"/>
-<wire x1="-16" y1="-23.5" x2="16" y2="-23.5" width="0.127" layer="21"/>
-<wire x1="16" y1="-23.5" x2="16" y2="24.1" width="0.127" layer="21"/>
-<wire x1="3.5" y1="24.1" x2="3.5" y2="25" width="0.127" layer="21"/>
-<wire x1="-3.75" y1="24.1" x2="-3.75" y2="25" width="0.127" layer="21"/>
-<wire x1="-3.75" y1="25" x2="3.5" y2="25" width="0.127" layer="21"/>
-<smd name="AGND" x="6" y="-22.5" dx="2" dy="1" layer="1" rot="R90"/>
-<smd name="BAT" x="-15" y="1.27" dx="2" dy="1" layer="1" rot="R180"/>
-<smd name="CHG-IN" x="-15" y="11.43" dx="2" dy="1" layer="1" rot="R180"/>
-<smd name="CSID0" x="15" y="-1.27" dx="2" dy="1" layer="1" rot="R180"/>
-<smd name="CSID1" x="15" y="-3.81" dx="2" dy="1" layer="1" rot="R180"/>
-<smd name="CSID2" x="15" y="-6.35" dx="2" dy="1" layer="1" rot="R180"/>
-<smd name="CSID3" x="15" y="-8.89" dx="2" dy="1" layer="1" rot="R180"/>
-<smd name="CSID4" x="15" y="-11.43" dx="2" dy="1" layer="1" rot="R180"/>
-<smd name="CSID5" x="15" y="-13.97" dx="2" dy="1" layer="1" rot="R180"/>
-<smd name="CSID6" x="15" y="-16.51" dx="2" dy="1" layer="1" rot="R180"/>
-<smd name="CSID7" x="15" y="-19.05" dx="2" dy="1" layer="1" rot="R180"/>
-<smd name="CSIHSYNC" x="15" y="3.81" dx="2" dy="1" layer="1" rot="R180"/>
-<smd name="CSIMCLK" x="15" y="6.35" dx="2" dy="1" layer="1" rot="R180"/>
-<smd name="CSIPCK" x="15" y="8.89" dx="2" dy="1" layer="1" rot="R180"/>
-<smd name="CSIVSYNC" x="15" y="1.27" dx="2" dy="1" layer="1" rot="R180"/>
-<smd name="GND@0" x="15" y="19.05" dx="2" dy="1" layer="1" rot="R180"/>
-<smd name="GND@1" x="-12" y="-22.5" dx="2" dy="1" layer="1" rot="R90"/>
-<smd name="GND@2" x="-15" y="6.35" dx="2" dy="1" layer="1" rot="R180"/>
-<smd name="GND@3" x="-15" y="19.05" dx="2" dy="1" layer="1" rot="R180"/>
-<smd name="GND@4" x="-12" y="23" dx="2" dy="1" layer="1" rot="R90"/>
-<smd name="VBUS" x="-6" y="23" dx="2" dy="1" layer="1" rot="R90"/>
-<smd name="GND@6" x="6" y="23" dx="2" dy="1" layer="1" rot="R90"/>
-<smd name="GND@7" x="12" y="23" dx="2" dy="1" layer="1" rot="R90"/>
-<smd name="HPCOM" x="-8" y="-22.5" dx="2" dy="1" layer="1" rot="R90"/>
-<smd name="HPL" x="-10" y="-22.5" dx="2" dy="1" layer="1" rot="R90"/>
-<smd name="HPR" x="-6" y="-22.5" dx="2" dy="1" layer="1" rot="R90"/>
-<smd name="I2S+SPDIF" x="4" y="-22.5" dx="2" dy="1" layer="1" rot="R90"/>
-<smd name="I2S-BCLK" x="-2" y="-22.5" dx="2" dy="1" layer="1" rot="R90"/>
-<smd name="I2S-DO" x="2" y="-22.5" dx="2" dy="1" layer="1" rot="R90"/>
-<smd name="I2S-LRCK" x="0" y="-22.5" dx="2" dy="1" layer="1" rot="R90"/>
-<smd name="I2S-MCLK" x="-4" y="-22.5" dx="2" dy="1" layer="1" rot="R90"/>
-<smd name="LRADC" x="15" y="11.43" dx="2" dy="1" layer="1" rot="R180"/>
-<smd name="MICIN1" x="8" y="-22.5" dx="2" dy="1" layer="1" rot="R90"/>
-<smd name="MICIN2" x="10" y="-22.5" dx="2" dy="1" layer="1" rot="R90"/>
-<smd name="PWM0" x="-15" y="-1.27" dx="2" dy="1" layer="1" rot="R180"/>
-<smd name="PWM1" x="-15" y="-3.81" dx="2" dy="1" layer="1" rot="R180"/>
-<smd name="PWRON" x="-15" y="8.89" dx="2" dy="1" layer="1" rot="R180"/>
-<smd name="TS" x="-15" y="3.81" dx="2" dy="1" layer="1" rot="R180"/>
-<smd name="TWI1-SCK" x="-15" y="-6.35" dx="2" dy="1" layer="1" rot="R180"/>
-<smd name="TWI1-SDA" x="-15" y="-8.89" dx="2" dy="1" layer="1" rot="R180"/>
-<smd name="UART1-RX" x="15" y="13.97" dx="2" dy="1" layer="1" rot="R180"/>
-<smd name="UART1-TX" x="15" y="16.51" dx="2" dy="1" layer="1" rot="R180"/>
-<smd name="UART2-CTS" x="-15" y="-16.51" dx="2" dy="1" layer="1" rot="R180"/>
-<smd name="UART2-RTS" x="-15" y="-19.05" dx="2" dy="1" layer="1" rot="R180"/>
-<smd name="UART2-RX" x="-15" y="-13.97" dx="2" dy="1" layer="1" rot="R180"/>
-<smd name="UART2-TX" x="-15" y="-11.43" dx="2" dy="1" layer="1" rot="R180"/>
-<smd name="USB0_N" x="-10" y="23" dx="2" dy="1" layer="1" rot="R90"/>
-<smd name="USB0_P" x="-8" y="23" dx="2" dy="1" layer="1" rot="R90"/>
-<smd name="USB1_N" x="8" y="23" dx="2" dy="1" layer="1" rot="R90"/>
-<smd name="USB1_P" x="10" y="23" dx="2" dy="1" layer="1" rot="R90"/>
-<smd name="IPSOUT" x="-15" y="13.97" dx="2" dy="1" layer="1" rot="R180"/>
-<smd name="VCC3V3" x="-15" y="16.51" dx="2" dy="1" layer="1" rot="R180"/>
-<smd name="VMIC" x="12" y="-22.5" dx="2" dy="1" layer="1" rot="R90"/>
-<text x="-13" y="26" size="1.27" layer="25" font="vector" ratio="12">&gt;NAME</text>
-<text x="-13" y="24.5" size="1.27" layer="27" font="vector" ratio="12">&gt;VALUE</text>
-<polygon width="0.127" layer="21">
-<vertex x="-3.75" y="25"/>
-<vertex x="3.75" y="25"/>
-<vertex x="3.75" y="24.1"/>
-<vertex x="-3.75" y="24.1"/>
-</polygon>
-<pad name="GND@3-1" x="-13.97" y="19.05" drill="0.9" diameter="1.6764" shape="long"/>
-<pad name="VCC3V3-1" x="-13.97" y="16.51" drill="0.9" diameter="1.6764" shape="long"/>
-<pad name="IPSOUT-1" x="-13.97" y="13.97" drill="0.9" diameter="1.6764" shape="long"/>
-<pad name="CHG-IN-1" x="-13.97" y="11.43" drill="0.9" diameter="1.6764" shape="long"/>
-<pad name="PWRON-1" x="-13.97" y="8.89" drill="0.9" diameter="1.6764" shape="long"/>
-<pad name="GND@2-1" x="-13.97" y="6.35" drill="0.9" diameter="1.6764" shape="long"/>
-<pad name="TS-1" x="-13.97" y="3.81" drill="0.9" diameter="1.6764" shape="long"/>
-<pad name="BAT-1" x="-13.97" y="1.27" drill="0.9" diameter="1.6764" shape="long"/>
-<pad name="PWM0-1" x="-13.97" y="-1.27" drill="0.9" diameter="1.6764" shape="long"/>
-<pad name="PWM1-1" x="-13.97" y="-3.81" drill="0.9" diameter="1.6764" shape="long"/>
-<pad name="TWI1-SCK-1" x="-13.97" y="-6.35" drill="0.9" diameter="1.6764" shape="long"/>
-<pad name="TWI1-SDA-1" x="-13.97" y="-8.89" drill="0.9" diameter="1.6764" shape="long"/>
-<pad name="UART2-TX-1" x="-13.97" y="-11.43" drill="0.9" diameter="1.6764" shape="long"/>
-<pad name="UART2-RX-1" x="-13.97" y="-13.97" drill="0.9" diameter="1.6764" shape="long"/>
-<pad name="UART2-CTS-1" x="-13.97" y="-16.51" drill="0.9" diameter="1.6764" shape="long"/>
-<pad name="UART2-RTS-1" x="-13.97" y="-19.05" drill="0.9" diameter="1.6764" shape="long"/>
-<pad name="GND@0-1" x="13.97" y="19.05" drill="0.9" diameter="1.6764" shape="long"/>
-<pad name="UART1-TX-1" x="13.97" y="16.51" drill="0.9" diameter="1.6764" shape="long"/>
-<pad name="UART1-RX-1" x="13.97" y="13.97" drill="0.9" diameter="1.6764" shape="long"/>
-<pad name="LRADC-1" x="13.97" y="11.43" drill="0.9" diameter="1.6764" shape="long"/>
-<pad name="CSIPCK-1" x="13.97" y="8.89" drill="0.9" diameter="1.6764" shape="long"/>
-<pad name="CSIMCLK-1" x="13.97" y="6.35" drill="0.9" diameter="1.6764" shape="long"/>
-<pad name="CSIHSYNC-1" x="13.97" y="3.81" drill="0.9" diameter="1.6764" shape="long"/>
-<pad name="CSIVSYNC-1" x="13.97" y="1.27" drill="0.9" diameter="1.6764" shape="long"/>
-<pad name="CSID0-1" x="13.97" y="-1.27" drill="0.9" diameter="1.6764" shape="long"/>
-<pad name="CSID1-1" x="13.97" y="-3.81" drill="0.9" diameter="1.6764" shape="long"/>
-<pad name="CSID2-1" x="13.97" y="-6.35" drill="0.9" diameter="1.6764" shape="long"/>
-<pad name="CSID3-1" x="13.97" y="-8.89" drill="0.9" diameter="1.6764" shape="long"/>
-<pad name="CSID4-1" x="13.97" y="-11.43" drill="0.9" diameter="1.6764" shape="long"/>
-<pad name="CSID5-1" x="13.97" y="-13.97" drill="0.9" diameter="1.6764" shape="long"/>
-<pad name="CSID6-1" x="13.97" y="-16.51" drill="0.9" diameter="1.6764" shape="long"/>
-<pad name="CSID7-1" x="13.97" y="-19.05" drill="0.9" diameter="1.6764" shape="long"/>
-<wire x1="15.24" y1="1.27" x2="13.97" y2="1.27" width="0.4064" layer="1"/>
-<wire x1="15.24" y1="-1.27" x2="13.97" y2="-1.27" width="0.4064" layer="1"/>
-<wire x1="13.97" y1="-3.81" x2="15.24" y2="-3.81" width="0.4064" layer="1"/>
-<wire x1="15.24" y1="-6.35" x2="13.97" y2="-6.35" width="0.4064" layer="1"/>
-<wire x1="15.24" y1="-8.89" x2="13.97" y2="-8.89" width="0.4064" layer="1"/>
-</package>
 </packages>
 <symbols>
 <symbol name="CHIP_PRO">
@@ -477,66 +363,6 @@
 <connect gate="G$1" pin="USB1_P" pad="USB1_P"/>
 <connect gate="G$1" pin="VBUS" pad="VBUS"/>
 <connect gate="G$1" pin="VCC3V3" pad="VCC3V3"/>
-<connect gate="G$1" pin="VMIC" pad="VMIC"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="HOLE" package="CHIP_PRO_HOLE">
-<connects>
-<connect gate="G$1" pin="AGND" pad="AGND"/>
-<connect gate="G$1" pin="BAT" pad="BAT BAT-1"/>
-<connect gate="G$1" pin="CHG-IN" pad="CHG-IN CHG-IN-1"/>
-<connect gate="G$1" pin="CSID0" pad="CSID0 CSID0-1"/>
-<connect gate="G$1" pin="CSID1" pad="CSID1 CSID1-1"/>
-<connect gate="G$1" pin="CSID2" pad="CSID2 CSID2-1"/>
-<connect gate="G$1" pin="CSID3" pad="CSID3 CSID3-1"/>
-<connect gate="G$1" pin="CSID4" pad="CSID4 CSID4-1"/>
-<connect gate="G$1" pin="CSID5" pad="CSID5 CSID5-1"/>
-<connect gate="G$1" pin="CSID6" pad="CSID6 CSID6-1"/>
-<connect gate="G$1" pin="CSID7" pad="CSID7 CSID7-1"/>
-<connect gate="G$1" pin="CSIHSYNC" pad="CSIHSYNC CSIHSYNC-1"/>
-<connect gate="G$1" pin="CSIMCLK" pad="CSIMCLK CSIMCLK-1"/>
-<connect gate="G$1" pin="CSIPCK" pad="CSIPCK CSIPCK-1"/>
-<connect gate="G$1" pin="CSIVSYNC" pad="CSIVSYNC CSIVSYNC-1"/>
-<connect gate="G$1" pin="GND@0" pad="GND@0 GND@0-1"/>
-<connect gate="G$1" pin="GND@2" pad="GND@2 GND@2-1"/>
-<connect gate="G$1" pin="GND@3" pad="GND@3 GND@3-1"/>
-<connect gate="G$1" pin="GND@4" pad="GND@4"/>
-<connect gate="G$1" pin="GND@5" pad="GND@1"/>
-<connect gate="G$1" pin="GND@6" pad="GND@6"/>
-<connect gate="G$1" pin="GND@7" pad="GND@7"/>
-<connect gate="G$1" pin="HPCOM" pad="HPCOM"/>
-<connect gate="G$1" pin="HPL" pad="HPL"/>
-<connect gate="G$1" pin="HPR" pad="HPR"/>
-<connect gate="G$1" pin="I2SBCLK" pad="I2S-BCLK"/>
-<connect gate="G$1" pin="I2SDO" pad="I2S-DO"/>
-<connect gate="G$1" pin="I2SLRCK" pad="I2S-LRCK"/>
-<connect gate="G$1" pin="I2SMCLK" pad="I2S-MCLK"/>
-<connect gate="G$1" pin="I2SSPDIF" pad="I2S+SPDIF"/>
-<connect gate="G$1" pin="IPSOUT" pad="IPSOUT IPSOUT-1"/>
-<connect gate="G$1" pin="LRADC" pad="LRADC LRADC-1"/>
-<connect gate="G$1" pin="MICIN1" pad="MICIN1"/>
-<connect gate="G$1" pin="MICIN2" pad="MICIN2"/>
-<connect gate="G$1" pin="PWM0" pad="PWM0 PWM0-1"/>
-<connect gate="G$1" pin="PWM1" pad="PWM1 PWM1-1"/>
-<connect gate="G$1" pin="PWRON" pad="PWRON PWRON-1"/>
-<connect gate="G$1" pin="TS" pad="TS TS-1"/>
-<connect gate="G$1" pin="TWI1-SCK" pad="TWI1-SCK TWI1-SCK-1"/>
-<connect gate="G$1" pin="TWI1-SDA" pad="TWI1-SDA TWI1-SDA-1"/>
-<connect gate="G$1" pin="UART1-RX" pad="UART1-RX UART1-RX-1"/>
-<connect gate="G$1" pin="UART1-TX" pad="UART1-TX UART1-TX-1"/>
-<connect gate="G$1" pin="UART2-CTS" pad="UART2-CTS UART2-CTS-1"/>
-<connect gate="G$1" pin="UART2-RTS" pad="UART2-RTS UART2-RTS-1"/>
-<connect gate="G$1" pin="UART2-RX" pad="UART2-RX UART2-RX-1"/>
-<connect gate="G$1" pin="UART2-TX" pad="UART2-TX UART2-TX-1"/>
-<connect gate="G$1" pin="USB0_N" pad="USB0_N"/>
-<connect gate="G$1" pin="USB0_P" pad="USB0_P"/>
-<connect gate="G$1" pin="USB1_N" pad="USB1_N"/>
-<connect gate="G$1" pin="USB1_P" pad="USB1_P"/>
-<connect gate="G$1" pin="VBUS" pad="VBUS"/>
-<connect gate="G$1" pin="VCC3V3" pad="VCC3V3 VCC3V3-1"/>
 <connect gate="G$1" pin="VMIC" pad="VMIC"/>
 </connects>
 <technologies>
