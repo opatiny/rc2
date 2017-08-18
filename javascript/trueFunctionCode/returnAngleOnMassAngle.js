@@ -3,10 +3,10 @@
 // angleServo are the angle of the three different servos, it is between 0 and 180 degrees
 
 //var angleCenter = 180; // do not forget that angles are in rad in javascript!! (default)
-var radiusCenter = 16.2; // rayon du cercle défini par la masse au centre du cylindre en [mm]
-var radiusServo = 16.2; // rayon défini par l'axe du servo en [mm]
-var bigRadius = 109.2; // distance between center of cylinder and center of servo [mm]
-var distance = 109.2; // distance between point on center circle of cylinder and end of servo axis [mm]
+var radiusCenter = 99; // rayon du cercle défini par la masse au centre du cylindre en [mm]
+var radiusServo = 99; // rayon défini par l'axe du servo en [mm]
+var bigRadius = 100; // distance between center of cylinder and center of servo [mm]
+var distance = 100; // distance between point on center circle of cylinder and end of servo axis [mm]
 
 
 function formula(angleCenter, radiusCenter, bigRadius, radiusServo, distance) {
@@ -43,7 +43,7 @@ function formula(angleCenter, radiusCenter, bigRadius, radiusServo, distance) {
 var results=[];
 
 var angleCenter;
-for(angleCenter = 0; angleCenter < 360; angleCenter += 5) {
+for(angleCenter = 0; angleCenter < 360; angleCenter += 1) {
     var angleServo = Math.round( formula(angleCenter, radiusCenter, bigRadius, radiusServo, distance) );
     var angleServo2 = Math.round( formula((angleCenter+120), radiusCenter, bigRadius, radiusServo, distance) );
     var angleServo3 = Math.round( formula((angleCenter+240), radiusCenter, bigRadius, radiusServo, distance) );
@@ -55,8 +55,9 @@ for(angleCenter = 0; angleCenter < 360; angleCenter += 5) {
         angleServo3
     });
 
-    console.log(angleServo3);
+    console.log(angleServo);
     // console.log(angleCenter + '\t' + angleServo + '\t' + angleServo2 + '\t' + angleServo3);
+
 }
 
 
