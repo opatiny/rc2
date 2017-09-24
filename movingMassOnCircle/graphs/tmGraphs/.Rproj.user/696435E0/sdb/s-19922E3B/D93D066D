@@ -1,0 +1,18 @@
+{
+    "contents" : "attach(vMaxPosition)\n\nplot(theta, r10, axes=FALSE)\n\naxis(side=1, at=seq(0, 180, by=30))\nbox()",
+    "created" : 1506248757973.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3650690519",
+    "id" : "D93D066D",
+    "lastKnownWriteTime" : 1506251339,
+    "path" : "~/git/opatiny/tm/movingMassOnCircle/graphs/tmGraphs/test.R",
+    "project_path" : "test.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

@@ -1,0 +1,25 @@
+{
+    "contents" : "",
+    "created" : 1506248436994.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "C8B3D38D",
+    "lastKnownWriteTime" : 5764607523304065788,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "zxy1oihyrp",
+        "caption" : "vMaxPosition",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=vMaxPosition&cache_key=zxy1oihyrp",
+        "displayedObservations" : 360,
+        "environment" : "",
+        "object" : "vMaxPosition",
+        "totalObservations" : 360,
+        "variables" : 13
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

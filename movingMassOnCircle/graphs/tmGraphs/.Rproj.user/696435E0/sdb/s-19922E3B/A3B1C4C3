@@ -1,0 +1,18 @@
+{
+    "contents" : "attach(vMaxPosition)\n\npch <- 19\ncex <- 0.25\n\n\nplot(theta, r10, ylab=\"alpha [degree]\", xlab=\"theta [degree]\", pch = pch, cex = cex, xlim=c(0,360), ylim=c(0,180))\npoints(r20, pch = pch, col = 2, cex = cex)\npoints(r30, pch = pch, col = 3, cex = cex)\npoints(r40, pch = pch, col = 4, cex = cex)\npoints(r50, pch = pch, col = 5, cex = cex)\npoints(r60, pch = pch, col = 6, cex = cex)\npoints(r70, pch = pch, col = 7, cex = cex)\npoints(r80, pch = pch, col = \"darkorange1\", cex = cex)\npoints(r90, pch = pch, col = \"gray48\", cex = cex)\npoints(r100, pch = pch, col = \"forestgreen\", cex = cex)\n\n\ngrid(nx = NULL, ny = NULL, col = \"lightgray\", lty = 1)\nlegend(\"topleft\", c(\"r = 10\", \"r = 20\",\"r = 30\", \"r = 40\", \"r = 50\", \"r = 60\", \"r = 70\", \"r = 80\", \"r = 90\", \"r = 100\"), pch = pch, col = c(1,2,3,4,5,6,7,\"darkorange1\",\"gray48\",\"forestgreen\"), title = \"Legend\")\n",
+    "created" : 1506251414093.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2485033257",
+    "id" : "A3B1C4C3",
+    "lastKnownWriteTime" : 1506252074,
+    "path" : "~/git/opatiny/tm/movingMassOnCircle/graphs/tmGraphs/vMaxPositionGraph.R",
+    "project_path" : "vMaxPositionGraph.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

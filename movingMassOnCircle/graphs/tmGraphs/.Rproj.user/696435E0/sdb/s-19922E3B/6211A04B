@@ -1,0 +1,18 @@
+{
+    "contents" : "attach(threeThirds)\n\npch <- 19\ncex <- 0.35\n\n\nplot(theta, alpha1, ylab=\"alpha [degree]\", xlab=\"theta [degree]\", pch = pch, cex = cex, xlim=c(0,360), ylim=c(0,180), col = 4)\npoints(alpha2, pch = pch, col = 2, cex = cex)\npoints(alpha3, pch = pch, col = 3, cex = cex)\n\ngrid(nx = NULL, ny = NULL, col = \"lightgray\", lty = 1)\nlegend(\"topright\", c(\"alpha1\", \"alpha2\",\"alpha3\"), pch = pch, col = c(4,2,3), title = \"Legend\")\n",
+    "created" : 1506247932327.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2429434858",
+    "id" : "6211A04B",
+    "lastKnownWriteTime" : 1506248471,
+    "path" : "~/git/opatiny/tm/movingMassOnCircle/graphs/tmGraphs/threeThirdsGraph.R",
+    "project_path" : "threeThirdsGraph.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

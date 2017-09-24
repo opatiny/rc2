@@ -1,0 +1,18 @@
+{
+    "contents" : "attach(vMaxSpeed)\n\npch <- 19\ncex <- 0.25\n\n\nplot(vMaxSpeed$theta, r10, ylab=\"alpha [degree]\", xlab=\"theta [degree]\", pch = pch, cex = cex, xlim=c(180,360), ylim=c(0,140))\n\npoints(r80, pch = pch, col = \"darkorange1\", cex = cex)\npoints(r90, pch = pch, col = \"gray48\", cex = cex)\npoints(r95, pch = pch, col = \"greenyellow\", cex = cex)\npoints(r99, pch = pch, col = \"lightblue3\", cex = cex)\npoints(r100, pch = pch, col = \"forestgreen\", cex = cex)\n\n\ngrid(nx = NULL, ny = NULL, col = \"lightgray\", lty = 1)\nlegend(\"topleft\", c(\"r = 10\", \"r = 80\",\"r = 90\", \"r = 95\", \"r = 99\", \"r = 100\"), pch = pch, col = c(1,\"darkorange1\",\"gray48\",\"greenyellow\",\"lightblue3\",\"forestgreen\"), title = \"Legend\")\n",
+    "created" : 1506252084138.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2372384256",
+    "id" : "F1558BB0",
+    "lastKnownWriteTime" : 1506252786,
+    "path" : "~/git/opatiny/tm/movingMassOnCircle/graphs/tmGraphs/vMaxSpeedGraph.R",
+    "project_path" : "vMaxSpeedGraph.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

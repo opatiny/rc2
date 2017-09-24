@@ -1,0 +1,18 @@
+{
+    "contents" : "attach(servoAxisTest)\n\npch <- 19\ncex <- 0.25\n\n\nplot(theta, r11, ylab=\"alpha [degree]\", xlab=\"theta [degree]\", pch = pch, cex = cex, xlim=c(0,360), ylim=c(0,180))\npoints(r11.2, pch = pch, col = 2, cex = cex)\npoints(r11.4, pch = pch, col = 3, cex = cex)\npoints(r11.6, pch = pch, col = 4, cex = cex)\npoints(r11.8, pch = pch, col = 5, cex = cex)\npoints(r12, pch = pch, col = 6, cex = cex)\n\n\ngrid(nx = NULL, ny = NULL, col = \"lightgray\", lty = 1)\nlegend(\"topright\", c(\"s = 11\", \"s = 11.2\",\"s = 11.4\", \"s = 11.6\", \"s = 11.8\", \"s = 12\"), pch = pch, col = c(1,2,3,4,5,6), title = \"Legend\")\n",
+    "created" : 1506251397057.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "715372335",
+    "id" : "54C7445E",
+    "lastKnownWriteTime" : 1506247833,
+    "path" : "~/git/opatiny/tm/movingMassOnCircle/graphs/tmGraphs/servoAxisTestGraph.R",
+    "project_path" : "servoAxisTestGraph.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "type" : "r_source"
+}
