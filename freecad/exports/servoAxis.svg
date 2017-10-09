@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="78.03mm" height="11.53mm" viewBox="0 0 78.03 11.53" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<g id="Rectangle" transform="translate(0.765000,10.765000) scale(1,-1)">
+<path id="Rectangle_f0000"  d="M 72.5 -8.881784197e-16 A 4.0 4.0 0 0 1 76.5 4.0 L 76.5 6.0 A 4.0 4.0 0 0 1 72.5 10.0 L 4.0 10.0 A 4.0 4.0 0 0 1 -4.4408920985e-16 6.0 L -4.4408920985e-16 4.0 A 4.0 4.0 0 0 1 4.0 -4.4408920985e-16 L 72.5 -8.881784197e-16 Z " stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc;fill-rule: evenodd "/>
+<title>Rectangle</title>
+</g>
+<g id="Spreadsheet" transform="translate(0.765000,10.765000) scale(1,-1)">
+<title>prefs</title>
+</g>
+<g id="Circle" transform="translate(0.765000,10.765000) scale(1,-1)">
+<circle cx="21.5" cy="5.0" r="0.5" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc"/>
+<title>Circle</title>
+</g>
+<g id="Circle001" transform="translate(0.765000,10.765000) scale(1,-1)">
+<circle cx="5.0" cy="5.0" r="1.0" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc"/>
+<title>axisHole</title>
+</g>
+<g id="Circle002" transform="translate(0.765000,10.765000) scale(1,-1)">
+<circle cx="38.0" cy="5.0" r="1.0" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc"/>
+<title>axisHole2</title>
+</g>
+<g id="Circle003" transform="translate(0.765000,10.765000) scale(1,-1)">
+<circle cx="71.5" cy="5.0" r="1.0" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc"/>
+<title>axisHole3</title>
+</g>
+</svg>

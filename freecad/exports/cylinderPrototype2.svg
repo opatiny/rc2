@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="305.551067581mm" height="305.771051719mm" viewBox="0 0 305.551067581 305.771051719" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<g id="Circle" transform="translate(152.555469,152.885526) scale(1,-1)">
+<circle cx="0.0" cy="0.0" r="150.0" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<title>circleExternal</title>
+</g>
+<g id="Circle001" transform="translate(152.555469,152.885526) scale(1,-1)">
+<circle cx="0.0" cy="0.0" r="89.0" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<title>circleInternal</title>
+</g>
+<g id="Array" transform="translate(152.555469,152.885526) scale(1,-1)">
+<path id="Array_f0000"  d="M 10.0 99.0 L 10.0 140.0 L -10.0 140.0 L -10.0 99.0 L 10.0 99.0 Z " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc;fill-rule: evenodd "/>
+<path id="Array_f0001"  d="M -90.7365149747 -40.8397459622 L -126.24355653 -61.3397459622 L -116.24355653 -78.6602540378 L -80.7365149747 -58.1602540378 L -90.7365149747 -40.8397459622 Z " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc;fill-rule: evenodd "/>
+<path id="Array_f0002"  d="M 80.7365149747 -58.1602540378 L 116.24355653 -78.6602540378 L 126.24355653 -61.3397459622 L 90.7365149747 -40.8397459622 L 80.7365149747 -58.1602540378 Z " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc;fill-rule: evenodd "/>
+<title>servoArray</title>
+</g>
+<g id="Rectangle" transform="translate(152.555469,152.885526) scale(1,-1)">
+<path id="Rectangle_f0000"  d="M 10.0 99.0 L 10.0 140.0 L -10.0 140.0 L -10.0 99.0 L 10.0 99.0 Z " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc;fill-rule: evenodd "/>
+<title>servo</title>
+</g>
+<g id="Spreadsheet" transform="translate(152.555469,152.885526) scale(1,-1)">
+<title>prefs</title>
+</g>
+<g id="Array001" transform="translate(152.555469,152.885526) scale(1,-1)">
+<circle cx="-103.490035752" cy="59.75" r="2.0" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc"/>
+<circle cx="6.63358257214e-15" cy="-119.5" r="2.0" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc"/>
+<circle cx="103.490035752" cy="59.75" r="2.0" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc"/>
+<title>screwArray</title>
+</g>
+</svg>

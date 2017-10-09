@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="325.921138753mm" height="326.1557885mm" viewBox="0 0 325.921138753 326.1557885" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<g id="Array" transform="translate(162.725833,163.077894) scale(1,-1)">
+<path id="Array_f0000"  d="M 10.0 90.0 L 10.0 131.0 L -10.0 131.0 L -10.0 90.0 L 10.0 90.0 Z " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc;fill-rule: evenodd "/>
+<path id="Array_f0001"  d="M -82.9422863406 -36.3397459622 L -118.449327896 -56.8397459622 L -108.449327896 -74.1602540378 L -72.9422863406 -53.6602540378 L -82.9422863406 -36.3397459622 Z " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc;fill-rule: evenodd "/>
+<path id="Array_f0002"  d="M 72.9422863406 -53.6602540378 L 108.449327896 -74.1602540378 L 118.449327896 -56.8397459622 L 82.9422863406 -36.3397459622 L 72.9422863406 -53.6602540378 Z " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc;fill-rule: evenodd "/>
+<title>servoArray</title>
+</g>
+<g id="Array001" transform="translate(162.725833,163.077894) scale(1,-1)">
+<circle cx="-129.903810568" cy="75.0" r="2.0" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc"/>
+<circle cx="0.0" cy="-150.0" r="2.0" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc"/>
+<circle cx="129.903810568" cy="75.0" r="2.0" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc"/>
+<title>screwArray</title>
+</g>
+<g id="Array004" transform="translate(162.725833,163.077894) scale(1,-1)">
+<path id="Array004_nwe0000"  d="M 118.547377609 -39.6423922339 A 125.0 125.0 0 0 1 24.9423700631 122.486236678 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none;fill-rule: evenodd "/>
+<path id="Array004_nwe0001"  d="M -24.9423700631 122.486236678 A 125.0 125.0 0 0 1 -118.547377609 -39.6423922339 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none;fill-rule: evenodd "/>
+<path id="Array004_nwe0002"  d="M -93.6050075459 -82.8438444444 A 125.0 125.0 0 0 1 93.6050075459 -82.8438444444 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none;fill-rule: evenodd "/>
+<title>arcArray001</title>
+</g>
+<g id="Array005" transform="translate(162.725833,163.077894) scale(1,-1)">
+<path id="Array005_w0000"  d="M -24.9423700631 122.486236678 L -24.9423700631 77.6873931885 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none;fill-rule: evenodd "/>
+<path id="Array005_w0001"  d="M -93.6050075456 -82.8438444442 L -54.8080710235 -60.4444226995 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none;fill-rule: evenodd "/>
+<path id="Array005_w0002"  d="M 118.547377609 -39.6423922338 L 79.7504410866 -17.242970489 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none;fill-rule: evenodd "/>
+<title>side1Array</title>
+</g>
+<g id="Array006" transform="translate(162.725833,163.077894) scale(1,-1)">
+<path id="Array006_w0000"  d="M -24.9423700631 77.6873931885 L 24.9423700631 77.6873931885 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none;fill-rule: evenodd "/>
+<path id="Array006_w0001"  d="M -54.8080710235 -60.4444226995 L -79.7504410866 -17.242970489 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none;fill-rule: evenodd "/>
+<path id="Array006_w0002"  d="M 79.7504410866 -17.242970489 L 54.8080710235 -60.4444226995 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none;fill-rule: evenodd "/>
+<title>side2Array</title>
+</g>
+<g id="Array007" transform="translate(162.725833,163.077894) scale(1,-1)">
+<path id="Array007_w0000"  d="M 24.9423700631 122.486236678 L 24.9423700631 77.6873931885 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none;fill-rule: evenodd "/>
+<path id="Array007_w0001"  d="M -118.547377609 -39.6423922338 L -79.7504410866 -17.242970489 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none;fill-rule: evenodd "/>
+<path id="Array007_w0002"  d="M 93.6050075456 -82.8438444442 L 54.8080710235 -60.4444226995 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none;fill-rule: evenodd "/>
+<title>side3Array</title>
+</g>
+<g id="Array009" transform="translate(162.725833,163.077894) scale(1,-1)">
+<circle cx="-4.85" cy="85.7" r="0.75" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc"/>
+<circle cx="-4.85" cy="135.3" r="0.75" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc"/>
+<circle cx="4.85" cy="85.7" r="0.75" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc"/>
+<circle cx="4.85" cy="135.3" r="0.75" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc"/>
+<circle cx="-71.7933771043" cy="-47.0502232084" r="0.75" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc"/>
+<circle cx="-114.748237132" cy="-71.8502232084" r="0.75" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc"/>
+<circle cx="-76.6433771043" cy="-38.6497767916" r="0.75" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc"/>
+<circle cx="-119.598237132" cy="-63.4497767916" r="0.75" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc"/>
+<circle cx="76.6433771043" cy="-38.6497767916" r="0.75" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc"/>
+<circle cx="119.598237132" cy="-63.4497767916" r="0.75" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc"/>
+<circle cx="71.7933771043" cy="-47.0502232084" r="0.75" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc"/>
+<circle cx="114.748237132" cy="-71.8502232084" r="0.75" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:#cccccc"/>
+<title>arrayOfHoleServo</title>
+</g>
+<g id="Circle" transform="translate(162.725833,163.077894) scale(1,-1)">
+<circle cx="0.0" cy="0.0" r="160.0" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none"/>
+<title>circleExternal</title>
+</g>
+</svg>

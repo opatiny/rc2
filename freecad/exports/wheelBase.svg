@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="918.0mm" height="418.0mm" viewBox="0 0 918.0 418.0" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<g id="Rectangle" transform="translate(209.000000,409.000000) scale(1,-1)">
+<path id="Rectangle_w0000"  d="M 300.0 0.0 L 700.0 0.0 L 700.0 200.0 L 300.0 200.0 L 300.0 0.0 " stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none;fill-rule: evenodd "/>
+<title>base</title>
+</g>
+<g id="Spreadsheet" transform="translate(209.000000,409.000000) scale(1,-1)">
+<title>prefs</title>
+</g>
+<g id="Line003" transform="translate(209.000000,409.000000) scale(1,-1)">
+<path id="Line003_w0000"  d="M 50.0 400.0 L 200.0 0.0 " stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none;fill-rule: evenodd "/>
+<title>côté2</title>
+</g>
+<g id="Line002" transform="translate(209.000000,409.000000) scale(1,-1)">
+<path id="Line002_w0000"  d="M -200.0 0.0 L -50.0 400.0 " stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none;fill-rule: evenodd "/>
+<title>côté1</title>
+</g>
+<g id="Line001" transform="translate(209.000000,409.000000) scale(1,-1)">
+<path id="Line001_w0000"  d="M -50.0 400.0 L 50.0 400.0 " stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none;fill-rule: evenodd "/>
+<title>epaisseur</title>
+</g>
+<g id="Line" transform="translate(209.000000,409.000000) scale(1,-1)">
+<path id="Line_w0000"  d="M 200.0 0.0 L -200.0 0.0 " stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;fill:none;fill-rule: evenodd "/>
+<title>Lbase</title>
+</g>
+</svg>
