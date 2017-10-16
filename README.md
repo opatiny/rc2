@@ -1,21 +1,30 @@
-# Development of a remote control sphere that rools when its gravity center is displaced
+# Development of a remote control cylinder that rolls when its gravity center is displaced
 ------
-This repositroy will contain all the data that was used and produced to realise this project. Wich means:
-* a latex document
+This repositroy will contain all the data that was used and produced to realize this project. Wich means:
 * schemes
-* pictures
+* pictures (in https://github.com/opatiny/tm/tree/master/pictures)
 * models
+* bits of code useful to understand bases of C and JS programming
 * various links to videos explaining the project
 
 ## Concept
+The goal of this project is to realise a remote controll cylinder that will roll when its center of mass is displaced. The approach chosen to make the mass move is to use three servos (MG995) screwed on the boarder of the cylinder, these are connected to the mass using rigid metallic bars. To induce the movement, it was needed to be able to make the mass move on a circular path of given radius, so we demonstrated the formula allowing to have the angles of the servos depending on the position of the mass in the cylinder and we implemented this fomula into a JavaScript code (https://github.com/opatiny/tm/tree/master/javascript) The micro-controller we use in the final version of the project is a C.H.I.P. Pro with a dedicated board including two peripherals: a PCA9685 for the servos control and a MPU6050, which is a 6 axis accelerometer (the eagle files of the board can be found on https://github.com/opatiny/tm/tree/master/eagle). The final cylidner is controlled through a web page and hace the features to go forward, backwards and stop. It can also remain balanced on a gentle slope. 
 
-The goal of this project is to realise a remote controll ball that will roll by moving it's gravity center. Since it is a really complex project, we begin by developing a 2D cylinder that would work on the same concept. The approach chosen to make the mass move is to use three servos on the outside the cylinder, these would be connected to the mass with rigid bars.
+## Programming
+All the code that allows the control of the cylinder is contained in the following repository:
+https://github.com/opatiny/chip
 
+## Documentation
+You might find a lot more of documentation about this project on the latex document that can be found in the following repository:
+https://github.com/opatiny/TM.ltx
 
 ## Links
-Here is a link to a youtube video describing the project: https://youtu.be/ukGI9wgj91s
+General description of the project: https://youtu.be/ukGI9wgj91s
 
-The mass of the second cylinder prototype moving on circle using atMega32u4: https://youtu.be/1zOCNZ_r5pY
+Cardbord model of the cylinder mechanism: https://youtu.be/4SuPhpwOK5g
+
+The mass of cylinderPrototype2 moving on a circle using atMega32u4: https://youtu.be/1zOCNZ_r5pY
+
 
 
 ## Pictures
