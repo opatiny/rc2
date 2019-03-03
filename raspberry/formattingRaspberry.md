@@ -102,11 +102,22 @@ Run `apt-get update`
 
 ### GitHub
 As root:  
-`apt-get instalchipl git`
+`apt-get install git`
 
 ### Node.js and npm
+You should not use apt-get because it is extremely old version. They should be installed from nodesource
 As root:  
-`apt-get install nodejs npm`
+```
+apt-get install xz-utils
+cd /usr/local/
+wget https://nodejs.org/dist/v10.15.2/node-v10.15.2-linux-armv6l.tar.xz
+unxz node-v10.15.2-linux-armv6l.tar.xz
+tar -xvf node-v10.15.2-linux-armv6l.tar
+rm node-v10.15.2-linux-armv6l.tar
+ln -s /usr/local/node-v10.15.2-linux-armv6l/bin/node /usr/local/bin/node
+ln -s /usr/local/node-v10.15.2-linux-armv6l/bin/npm /usr/local/bin/npm
+ln -s /usr/local/node-v10.15.2-linux-armv6l/bin/npx /usr/local/bin/npx
+```
 
 ### I2C
 To enable I2C and serial and access to other paramters, use the `raspi-config` command.
