@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name Connector-ML)(type Legacy)(uri /home/lpatiny/git/opatiny/tm/kicad/rpi-extension/symbols/Connector-ML.lib)(options "")(descr ""))
-)
