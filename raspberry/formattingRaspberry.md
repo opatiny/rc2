@@ -85,7 +85,7 @@ __password:__ raspberry
    ```
 - Tell the system where to find the file:
   `sudo nano /etc/default/hostapd`
-- replace the line with `#DAEMON_CONF` and replace by
+- Replace the line with `#DAEMON_CONF` and replace by
   `DAEMON_CONF="/etc/hostapd/hostapd.conf"`
 
 ### Starting it
@@ -105,8 +105,8 @@ As root:
 `apt-get install git`
 
 ### Node.js and npm
-You should not use apt-get because it is extremely old version. They should be installed from nodesource
-As root:  
+You should not use apt-get because it is as old version.Instead, use nodesource
+as root:  
 ```
 apt-get install xz-utils
 cd /usr/local/
