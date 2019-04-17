@@ -29,7 +29,7 @@ __password:__ raspberry
  - 5 Interfacing Options
  - P2 SSH
 
- ## Enable WIFI
+ ## Enable WIFI hotspot
  https://www.raspberrypi.org/documentation/configuration/wireless/access-point.md
 
  These commands are supposed to work for Raspberry Pi 3 and Zero W.
@@ -96,6 +96,25 @@ __password:__ raspberry
 - Reboot
 - Connect to the WiFi from a wireless device and try to ssh the Raspberry with  
   `ssh pi@172.16.1.1`
+
+## Swap from WiFi hotspot to local network
+It's quite quick, normally.
+
+__Link:__ https://raspberrypihq.com/how-to-connect-your-raspberry-pi-to-wifi/
+
+__Step 1:__ remove the three lines added at the end of `/etc/dhcpcd.conf`.
+
+
+__Step 2:__ add the following lines at the end of `/etc/wpa_supplicant/wpa_supplicant.conf`.
+
+```
+  network={
+    ssid="Wifi network name"
+    psk="password"
+  }
+```
+
+If necessary, reboot. Then, the device should appear on the list of devices connected to the WiFi rooter.
 
 ## Various installs
 Run `apt-get update`
