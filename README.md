@@ -1,6 +1,7 @@
 # Remote Control Cylinder
 
 ---
+Link to "site": https://opatiny.github.io/rc2/.
 
 Most importantly, this README is not the main source of information for this project. A detailled paper can be found [here](https://github.com/opatiny/rc2/blob/master/documentation/RemoteControlCylinder.pdf).
 
@@ -41,7 +42,7 @@ Final cylinder's prototype presentation video:
 
 In this section, we explain what the different folders of this repository contain and what it was used for.
 
-__Note:__ Three main prototypes were built during this project. TO refer to them, we use the acronyms cp1, cp2 and cp3 ("cp" stands for "cylinderPrototype"). You can see pictures of the prototypes in the [Pictures section](#pictures).
+__Note:__ Three main prototypes were built during this project. To refer to them, we use the acronyms cp1, cp2 and cp3 ("cp" stands for "cylinderPrototype"). You can see pictures of the prototypes in the [Pictures section](#pictures).
 
 ### arduino
 Very basic programs in Arduino that allowed to test the movement of the mass with cp2. The values of the angles of the servos motors depending on the mass position were exported from the [GeoGebra model](https://github.com/opatiny/rc2/blob/master/movingMassOnCircle/geogebra/cylinderPrototype2/cylinderPrototype2.ggb) that we designed.
