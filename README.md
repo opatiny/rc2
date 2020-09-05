@@ -3,14 +3,18 @@
 ---
 Link to "site": https://opatiny.github.io/rc2/.
 
-Most importantly, this README is not the main source of information for this project. A detailled paper can be found [here](https://github.com/opatiny/rc2/blob/master/documentation/RemoteControlCylinder.pdf).
+__WARNING:__ This README is not the main source of information for this project. A detailled paper can be found [here](https://github.com/opatiny/rc2/blob/master/documentation/RemoteControlCylinder.pdf).
 
 <img src="documentation/pictures/cp3.JPG" alt="drawing" width="70%"/>  
 
 _Final cylinder prototype_
 
 ## Abstract
-This one year project consists in the development of a remote controlled cylinder that uses servo motors to displace its center of mass, which leads the cylinder to accelerate linearly. This implies that very diversified fields such as mathematics, physics, programming, electronics and mechanics had to be explored and partly understood to be combined in the final prototype. This prototype has an acrylic glass base structure with a diameter of 32 cm, it is controlled using a C.H.I.P. Pro (a micro-controller similar to Raspberry Pi) and a customized dedicated extension board. The board includes a driver for four servo motors and a 6 axis accelerometer. Finally, the power supply consists of a pack of three AA batteries. All the programming was made using JavaScript scripts that are run using Node.js and a Shell. In addition, the cylinder is remotely controlled through a web page, which make it easy and intuitive for the user. The final features of this robotic cylinder are the following: it can roll forwards and backwards, stop and keep itself balanced on a gentle slope . Also, it is only working well on flat, hard surfaces, though it could easily be adapted to rougher surfaces. The possibility has also been considered of creating a sphere that uses the same technologies as the cylinder that was constructed in this project. Finally, this work is meant to be as open-source as possible. Therefore, the software that was developed is under MIT licence, whereas the hardware is under CERN OHL. The results of the project can be seen easily in [this movie](https://youtu.be/QggOjoGjJhA).
+This one year project consists in the development of a remote controlled cylinder that uses servo motors to displace its center of mass, which leads the cylinder to accelerate linearly. This implies that very diversified fields such as mathematics, physics, programming, electronics and mechanics had to be explored and partly understood to be combined in the final prototype. This prototype has an acrylic glass base structure with a diameter of 32 cm, it is controlled using a C.H.I.P. Pro (a micro-controller similar to Raspberry Pi) and a customized dedicated extension board. The board includes a driver for four servo motors and a 6 axis accelerometer. Finally, the power supply consists of a pack of three AA batteries. All the programming was made using JavaScript scripts that are run using Node.js and a Shell. In addition, the cylinder is remotely controlled through a web page, which make it easy and intuitive for the user. The final features of this robotic cylinder are the following: it can roll forwards and backwards, stop and keep itself balanced on a gentle slope . Also, it is only working well on flat, hard surfaces, though it could easily be adapted to rougher surfaces. The possibility has also been considered of creating a sphere that uses the same technologies as the cylinder that was constructed in this project. The results of the project can be seen easily in [this movie](https://youtu.be/QggOjoGjJhA).
+
+## Liscence
+
+Finally, this work is meant to be as open-source as possible. Therefore, the software that was developed is under MIT licence, whereas the hardware is under CERN OHL.
 
 ## Concept
 
@@ -27,7 +31,7 @@ The programming has been done in JavaScript (using Node.js) and HTML for the web
 
 ## Documentation
 
-You might find a lot more of documentation about this project can be found in the [documentation](https://github.com/opatiny/rc2/tree/master/documentation) section of this repository. There, you will find pictures, a developed abstract, and the paper about this project.
+You can find a lot mor documentation about this project in the [documentation](https://github.com/opatiny/rc2/tree/master/documentation) section of this repository. There, you will find pictures, a developed abstract, and the paper about this project.
 
 ## Videos
 
