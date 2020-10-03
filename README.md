@@ -25,7 +25,7 @@ Looking further, I also realized that most of the projects use a similar approac
 ## Programming
 
 All the code that allows the control of the cylinder is contained in the following repository:
-[https://github.com/opatiny/chip](https://github.com/opatiny/chip).
+[https://github.com/opatiny/rpi-cylinder](https://github.com/opatiny/rpi-cylinder).
 
 The programming has been done in JavaScript (using Node.js) and HTML for the web page that allows the control of the cylinder. Websocket was used to make the web page dynamic.
 
