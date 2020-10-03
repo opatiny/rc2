@@ -9,6 +9,10 @@ __WARNING:__ This README is not the main source of information for this project.
 
 _Final cylinder prototype_
 
+## Cite this repository
+
+Océane Patiny, & Luc Patiny. (2020, October 3). opatiny/rc2: Remote controlled cylinder final documentation (Version v1.0.0). Zenodo. http://doi.org/10.5281/zenodo.4064763
+
 ## Abstract
 This one year project consists in the development of a remote controlled cylinder that uses servo motors to displace its center of mass, which leads the cylinder to accelerate linearly. This implies that very diversified fields such as mathematics, physics, programming, electronics and mechanics had to be explored and partly understood to be combined in the final prototype. This prototype has an acrylic glass base structure with a diameter of 32 cm, it is controlled using a C.H.I.P. Pro (a micro-controller similar to Raspberry Pi) and a customized dedicated extension board. The board includes a driver for four servo motors and a 6 axis accelerometer. Finally, the power supply consists of a pack of three AA batteries. All the programming was made using JavaScript scripts that are run using Node.js and a Shell. In addition, the cylinder is remotely controlled through a web page, which make it easy and intuitive for the user. The final features of this robotic cylinder are the following: it can roll forwards and backwards, stop and keep itself balanced on a gentle slope . Also, it is only working well on flat, hard surfaces, though it could easily be adapted to rougher surfaces. The possibility has also been considered of creating a sphere that uses the same technologies as the cylinder that was constructed in this project. The results of the project can be seen easily in [this movie](https://youtu.be/QggOjoGjJhA).
 
